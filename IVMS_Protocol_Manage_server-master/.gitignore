@@ -1,0 +1,10 @@
+/Win32
+/*.db
+/*.opendb
+/I8H_Device_Manage_server/Debug
+/I8H_Device_Manage_server/GeneratedFiles
+/I8H_Device_Manage_server/Release
+/I8H_Device_Manage_server/Win32
+/I8H_Device_Manage_server/*.filters
+/I8H_Device_Manage_server/*.user
+/.vs
