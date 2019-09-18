@@ -1,0 +1,627 @@
+/***********************告警部分界面***********************/
+QPushButton[flat="true"]:disabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+/*#calSearch
+{
+	height: 200px;
+	min-height: 200px;
+	max-height: 200px;
+}*/
+
+QCalendarWidget QWidget#qt_calendar_navigationbar
+{
+	background-color:rgb(12,13,19);
+}
+
+QCalendarWidget QToolButton#qt_calendar_monthbutton,
+QCalendarWidget QToolButton#qt_calendar_yearbutton
+{
+	font-size: 14px;
+	font-family: "simsam";
+	color: rgb(180, 180, 180);
+}
+
+QCalendarWidget#qt_calendar_prevmonth,
+QCalendarWidget#qt_calendar_nextmonth
+{
+	color: rgb(180, 180, 180);
+	background-color: rgb(12, 13, 19);
+}
+
+QCalendarWidget QTableView
+{
+	font-size: 14px;
+	font-family: "simsam";
+	color: rgb(180, 180, 180);
+	background-color: rgb(12, 13, 19);
+}
+
+QCalendarWidget QComboBox,
+QCalendarWidget QComboBox:hover
+{
+	color: rgb(180, 180, 180);
+}
+
+QCalendarWidget QAbstractItemView
+{
+	selection-background-color: rgb(0, 169, 179);
+}
+
+QLineEdit, QComboBox
+{
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+	padding-left: 6px;
+}
+
+QComboBox:focus
+{
+	border:0;
+}
+
+QDateTimeEdit:focus,
+QSpinBox:focus,
+QComboBox:focus
+{
+    border:0;
+    background-color: rgba(0, 169, 179, 120);
+}
+
+QDateTimeEdit:disabled,
+QSpinBox:disabled
+{
+    border:0;
+	background-color: rgb(87, 88, 90);
+	color: rgb(160, 160, 160);
+}
+
+QMainWindow QLineEdit, QMainWindow QComboBox
+{
+	height: 37px;
+	max-height: 37px;
+	min-height: 37px;
+	color:rgb(240, 240, 240);
+	font-size: 16px;
+	background-color: rgb(67, 68, 70);
+	padding-left: 6px;
+}
+
+QPlainTextEdit,
+QTextEdit
+{
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+}
+
+QSpinBox
+{
+	border: 0;
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+}
+
+QDateTimeEdit
+{
+	border: 0;
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	border: 1px solid rgb(79, 80, 86);
+	background-color: rgb(67, 68, 70);
+	color: rgb(240, 240, 240);
+	font-size: 12px;
+}
+
+QComboBox QAbstractItemView,
+QSpinBox QAbstractItemView,
+QSpinBox QAbstractItemView
+{
+	color:rgb(180, 180, 180);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+ 	selection-background-color: rgba(0, 169, 179, 120);
+ 	selection-color: rgb(240, 240, 240);
+}
+
+QGroupBox
+{
+	border:1px solid rgb(45, 47, 51);
+	color: rgb(180, 180, 180);
+	font-size: 14px;
+}
+
+QCheckBox
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+	font-size: 12px;
+}
+
+QLabel
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+/*	font-size: 12px;*/
+}
+
+QHeaderView::section
+{
+	background-color: qlineargradient(x1:0,y2:1,stop:0 #232428, stop:1 #0E0F13);
+	color: rgb(180, 180, 180);
+	border: 0;
+	border-left: 1px solid #0A0B10;
+	border-right: 1px solid #0A0B10;
+	font-weight: bold;
+	height: 38px;
+}
+
+QMenu 
+{
+	background-color: rgb(42, 43, 48);
+	color: rgb(180, 180, 180);
+}
+
+QMenu::item:selected
+{
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+QScrollBar:vertical,
+QScrollBar:horizontal
+{
+	background-color: gray;
+}
+
+QScrollBar:handle,
+QScrollBar:handle:hover
+{
+	background-color: rgb(83, 84, 93);
+}
+
+QTreeView, QTreeWidget, QListWidget
+{
+	background-color: rgb(42, 43, 48);
+	color: rgb(180, 180, 180);
+	padding-top: 10px;
+}
+
+QTableWidget,
+QTableView
+{
+	background-color: rgb(54, 56, 62);
+	alternate-background-color: rgb(72, 75, 82);
+	color: rgb(180, 180, 180);
+}
+
+QTreeView::item:hover,
+QTreeWidget::item:hover,
+QListWidget::item:hover
+{
+	background-color: rgba(0, 169, 179, 40);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::item:selected,
+QTreeWidget::item:selected,
+QListWidget::item:selected,
+QTableWidget::item:selected,
+QTableView::item:selected
+{
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings,
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings,
+QListWidget::branch:closed:has-children:!has-siblings,
+QListWidget::branch:closed:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings,
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings,
+QListWidget::branch:open:has-children:!has-siblings,
+QListWidget::branch:open:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-open.png);
+}
+
+QTreeWidget::branch:has-siblings:!adjoins-item
+{
+	border-image: url(./Resources/vline.png) 0;
+}
+
+QTreeWidget::branch:has-siblings:adjoins-item
+{
+	border-image: url(./Resources/branch-more.png) 0;
+}
+
+QTreeWidget::branch:!has-children:!has-siblings:adjoins-item
+{
+	border-image: url(./Resources/branch-end.png) 0;
+}
+
+QCheckBox::indicator:nomal { 
+	image: url(./Resources/check-arrow-nomal.png);
+}
+
+QCheckBox::indicator:checked { 
+	image: url(./Resources/check-arrow-checked.png);
+}
+
+QSlider::groove:horizontal
+{
+	background-color: rgb(29, 205, 216);
+	height: 4px;
+	border-radius: 2px;
+	left: 6px;
+	right: 6px;
+}
+
+QSlider::add-page:horizontal
+{
+	background-color: rgb(20, 21, 23);
+}
+
+QSlider::handle:horizontal
+{
+	background-color: rgb(200, 200, 200);
+	width: 6px;
+	height: 10px;
+	margin: -6px -1px -6px -1px;
+	border-radius: 2px;
+	
+}
+
+#btnMin,
+#btn_minimum,
+#btn_minimum1
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_nomal.png);
+}
+
+#btnMin:hover, 
+#btnMin:pressed,
+#btn_minimum:hover, 
+#btn_minimum:pressed,
+#btn_minimum1:hover, 
+#btn_minimum1:pressed
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_active.png);
+}
+
+#btnClose, 
+#btn_close,
+#btn_close1
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_nomal.png);
+}
+
+#btnClose:hover, 
+#btnClose:pressed,
+#btn_close:hover, 
+#btn_close:pressed,
+#btn_close1:hover, 
+#btn_close1:pressed
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_active.png);
+}
+
+
+
+QPushButton[flat="true"]
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+QPushButton[flat="true"]:hover,
+QPushButton[flat="true"]:pressed
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSelAlarmSource
+{
+	border-radius: 3px;
+	background-color: rgb(0, 169, 179);
+	color: rgb(240, 240, 240);
+}
+
+#btnSelAlarmSource:hover,
+#btnSelAlarmSource:pressed
+{
+	border-radius: 3px;
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic,
+#btnCnlMosaic,
+#btn_work_day,
+#btn_save_template
+{
+	min-width: 90px;
+	max-width: 90px;
+	width: 90px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic:hover,
+#btnMosaic:pressed,
+#btnCnlMosaic:hover,
+#btnCnlMosaic:pressed,
+#btn_work_day:hover,
+#btn_work_day:pressed,
+#btn_save_template:hover,
+#btn_save_template:pressed
+{
+	min-width: 90px;
+	max-width: 90px;
+	width: 90px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSaveAndEnable,
+#btnAddDistributor,
+#btnAddStorage,
+#btn_quota,
+#btn_parameter,
+#btnCalendarSearch
+{
+	min-width: 100px;
+	max-width: 100px;
+	width: 100px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSaveAndEnable:hover,
+#btnSaveAndEnable:pressed,
+#btnAddDistributor:hover,
+#btnAddDistributor:pressed,
+#btnAddStorage:hover,
+#btnAddStorage:pressed,
+#btn_quota:hover,
+#btn_quota:pressed,
+#btn_parameter:hover,
+#btn_parameter:pressed,
+#btnCalendarSearch:hover,
+#btnCalendarSearch:pressed
+{
+	min-width: 100px;
+	max-width: 100px;
+	width: 100px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic:disabled,
+#btnCnlMosaic:disabled,
+#btn_work_day:disabled,
+#btn_save_template:disabled,
+#btnAddDistributor:disabled,
+#btnAddStorage:disabled,
+#btn_quota:disabled,
+#btn_parameter:disabled,
+#btnCalendarSearch:disabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+/************************添加设备联动界面及下面小界面**********************/
+#btnSelFileAlarmIn,
+#btnSelFileMotionDetect,
+#btnSelFileHideAlarm,
+#btnSelFileVideoLost,
+#btnSelFileCountAlarm,
+#btnSelFileAreaAlarm,
+#btnSelFileObjectAlarm,
+#btnSelFileCrossAlarm
+{
+	border-image: url(./Resources/Group.png);
+}
+
+#btnPlayAlarmIn,
+#btnPlayMotionDetect,
+#btnPlayHideAlarm,
+#btnPlayVideoLost,
+#btnPlayCountAlarm,
+#btnPlayAreaAlarm,
+#btnPlayObjectAlarm,
+#btnPlayCrossAlarm
+{
+	border-image: url(./Resources/play_a.png);
+}
+
+#labelSchedule
+{
+	color: rgb(98, 198, 89);
+}
+
+#labelMotion
+{
+	color: rgb(200, 200, 0);
+}
+
+#labelAlarm
+{
+	color: rgb(200, 0, 0);
+}
+
+#labelSmart
+{
+	color: rgb(131, 87, 197);
+}
+
+#labelPBNormal
+{
+	background-color: rgb(98, 198, 89);
+}
+
+#labelPBMotion
+{
+	background-color: rgb(236, 234, 64);
+}
+
+#labelPBAlarm
+{
+	background-color: rgb(238, 53, 48);
+}
+
+#labelPBSmart
+{
+	background-color: rgb(131, 87, 197);
+}
+#ModifyChannel #widgetMid
+{
+	background-image: url(./Resources/sub_xl_middle.png);
+	background-repeat:repeat-xy;
+}
+
+#ModifyChannel #widget
+{
+	background-image: url(./Resources/sub_xl_middle.png);
+	background-repeat:repeat-xy;
+	border-bottom-width:1px solid rgb(180,180,180);
+}
+
+#ModifyChannel #widgetTitle
+{
+	background-image: url(./Resources/sub_xl_title.png);
+	border-bottom-width:1px solid rgb(180,180,180);
+}
+
+#ModifyChannel #widgetBottom
+{
+	background-image: url(./Resources/sub_xl_bottom.png);
+	border-top-width:1px solid rgb(180,180,180);
+}
+
+#PreMutilMap #BtnLeft_a
+{
+	background:rgb(40,41,43);
+	background-image: url(./Resources/map_left.png);
+	border-radius:5px;
+}
+
+#PreMutilMap #BtnLeft_a:hover,
+#PreMutilMap #BtnLeft_a:checked
+{
+	background-image: url(./Resources/map_left_a.png);
+}
+
+#PreMutilMap #BtnRight_a
+{
+	background:rgb(40,41,43);
+	background-image: url(./Resources/map_right.png);
+	border-radius:5px;
+}
+
+#PreMutilMap #BtnRight_a:hover,
+#PreMutilMap #BtnRight_a:checked
+{
+	background-image: url(./Resources/map_right_a.png);
+}
+
+#HoverWidget #widgetMain
+{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(20,21,23),stop: 1 rgb(60,61,63));
+}
+
+ #widgetIn1,
+ #widgetIn3,
+ #widgetIn4,
+ #widgetOut1,
+ #widgetOut2,
+ #widgetOut3,
+ #widgetOut4
+{
+	background-color:rgb(40,42,46);
+}
+
+#StorageMng #widget,
+#SiteManage #widgetMid,
+#MsgBox #widget,
+#RecDownLoad #widget,
+#AddArea #widgetMid,
+#AddDev #widgetMid,
+#AddGroup #widgetMid,
+#LayoutDialog #widgetMid,
+#AddLayout #widgetMid,
+#CopyCHConfig #widget,
+#AddTemplate #WidgetMid,
+#UserPage #widget,
+#AddMap #widget,
+#AddLinkageRule #widget,
+#AlarmSoundCfg #widgetMid,
+#RecPathConfig #widget
+{
+	background-color: rgb(20,21,23);
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-top:1px solid rgb(89,89,94);
+}

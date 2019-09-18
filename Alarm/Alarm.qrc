@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ivms_Alarm.qss</file>
+    </qresource>
+</RCC>

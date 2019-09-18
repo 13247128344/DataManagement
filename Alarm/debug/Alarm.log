@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (debug\) contains files shared from another project (AlarmLog.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  alarmcfg.cpp
+e:\qt5.9.1\data\alarm\alarm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+alarmcfg.cpp(144): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(135): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(160): warning C4189: “iCount”: 局部变量已初始化但不引用
+alarmcfg.cpp(202): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(193): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(343): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(334): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(410): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(401): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(482): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(473): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(585): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(576): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(638): warning C4189: “result”: 局部变量已初始化但不引用
+alarmcfg.cpp(629): warning C4189: “tmpIn”: 局部变量已初始化但不引用
+alarmcfg.cpp(731): warning C4100: “e”: 未引用的形参
+  Alarm.vcxproj -> E:\qt5.9.1\data\Alarm\debug\ivms_AlarmLog.exe
+  Alarm.vcxproj -> debug\ivms_AlarmLog.pdb (Full PDB)

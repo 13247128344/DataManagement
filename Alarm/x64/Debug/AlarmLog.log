@@ -1,0 +1,24 @@
+﻿  Generate moc_predefs.h
+  Uic'ing alarm.ui...
+  Uic'ing log.ui...
+  Rcc'ing log.qrc...
+  Moc'ing alarm.h...
+  Moc'ing log.h...
+  alarm.cpp
+  log.cpp
+  main.cpp
+log.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+alarm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\qt5.9.1\data\alarmlog\log.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 log.cpp)
+  qrc_log.cpp
+e:\qt5.9.1\data\alarmlog\log.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+e:\qt5.9.1\data\alarmlog\alarm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 alarm.cpp)
+  moc_alarm.cpp
+e:\qt5.9.1\data\alarmlog\debug\../alarm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\moc_alarm.cpp)
+e:\qt5.9.1\data\alarmlog\alarm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+alarm.cpp(100): warning C4100: “e”: 未引用的形参
+log.cpp(65): warning C4100: “event”: 未引用的形参
+  moc_log.cpp
+e:\qt5.9.1\data\alarmlog\debug\../log.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\moc_log.cpp)
+  AlarmLog.vcxproj -> E:\qt5.9.1\data\AlarmLog\debug\AlarmLog.exe
+  AlarmLog.vcxproj -> debug\AlarmLog.pdb (Full PDB)

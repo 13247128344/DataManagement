@@ -1,0 +1,12 @@
+QPalette{background:#444444;}*{outline:0px;color:#DCDCDC;}
+QTableWidget{
+    background-color:rgb(68,68,68);
+}
+QPushButton{
+    background-color:rgb(0,255,255);
+    border-radius:2px;
+}
+QPushButton:hover{
+    bakcground-color:rgb(0,255,255);
+    border-radius:2px;
+}
