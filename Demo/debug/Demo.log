@@ -1,0 +1,1 @@
+﻿C:\Users\s_zhu\AppData\Local\QtMsBuild\qtrcc.targets(74,5): error MSB3073: 命令“"D:\qt5.8.0\5.8\msvc2015\bin\rcc.exe" --list "imag.qrc" > "debug\rcc_list.txt" 2> nul”已退出，代码为 9009。

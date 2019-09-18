@@ -1,0 +1,17 @@
+﻿  Generate moc_predefs.h
+  Uic'ing mainwindow.ui...
+  Moc'ing mainwindow.h...
+  main.cpp
+  mainwindow.cpp
+  moc_mainwindow.cpp
+mainwindow.obj : error LNK2019: 无法解析的外部符号 I8H_SDK_Initv2，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 I8H_SDK_SetConnectTime，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 I8H_SDK_Login，该符号在函数 "private: void __cdecl MainWindow::on_LoginBtn_clicked(void)" (?on_LoginBtn_clicked@MainWindow@@AEAAXXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "int __cdecl I8_MP4Play_OpenStream(long,unsigned char *,unsigned long,unsigned long)" (?I8_MP4Play_OpenStream@@YAHJPEAEKK@Z)，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "int __cdecl I8_MP4Play_SetDisplayCallBack(long,void (__cdecl*)(long,char *,long,long,long,long,long,long))" (?I8_MP4Play_SetDisplayCallBack@@YAHJP6AXJPEADJJJJJJ@Z@Z)，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "int __cdecl I8_MP4Play_SetStreamOpenMode(long,unsigned long)" (?I8_MP4Play_SetStreamOpenMode@@YAHJK@Z)，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "int __cdecl I8_MP4Play_SetPlayerBufNumber(long,unsigned long)" (?I8_MP4Play_SetPlayerBufNumber@@YAHJK@Z)，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "int __cdecl I8_MP4Play_GetFreePort(void)" (?I8_MP4Play_GetFreePort@@YAHXZ)，该符号在函数 "private: int __cdecl MainWindow::initSDK(void)" (?initSDK@MainWindow@@AEAAHXZ) 中被引用
+.\lib\I8_PlaySDK.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+.\lib\I8H_SDK.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+debug\\Demo.exe : fatal error LNK1120: 8 个无法解析的外部命令

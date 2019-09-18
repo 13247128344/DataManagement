@@ -1,0 +1,47 @@
+﻿  系统找不到指定的文件。
+  Uic'ing frmmain.ui...
+  Uic'ing mainwindow.ui...
+  Uic'ing playframe.ui...
+  Uic'ing playmultiwindow.ui...
+  Uic'ing prevscreennumctrl.ui...
+  Uic'ing vprevmulitwindow.ui...
+  Uic'ing vprevwindow.ui...
+  Rcc'ing imag.qrc...
+  Moc'ing frmmain.h...
+  Moc'ing mainwindow.h...
+  Moc'ing playframe.h...
+  Moc'ing playmultiwindow.h...
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\playframe.h
+  Moc'ing prevscreennumctrl.h...
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\playmultiwindow.h
+  Moc'ing equipment.h...
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\frmmain.h
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\mainwindow.h
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\prevscreennumctrl.h
+   Warning: Failed to resolve include "Release/moc_predefs.h" for moc file C:\Users\Administrator\Desktop\Demo\equipment.h
+  frmmain.cpp
+  main.cpp
+  mainwindow.cpp
+frmmain.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  playframe.cpp
+playframe.cpp(5): warning C4100: “index”: 未引用的形参
+  playmultiwindow.cpp
+mainwindow.cpp(85): warning C4100: “nStamp”: 未引用的形参
+mainwindow.cpp(103): warning C4100: “dwDataType”: 未引用的形参
+mainwindow.cpp(103): warning C4100: “hHandle”: 未引用的形参
+mainwindow.cpp(109): warning C4189: “wFreePort”: 局部变量已初始化但不引用
+mainwindow.cpp(108): warning C4189: “wStreameType”: 局部变量已初始化但不引用
+mainwindow.cpp(107): warning C4189: “wChannel”: 局部变量已初始化但不引用
+mainwindow.cpp(374): warning C4189: “dwLastError”: 局部变量已初始化但不引用
+  prevscreennumctrl.cpp
+  equipment.cpp
+  qrc_imag.cpp
+  moc_frmmain.cpp
+  moc_mainwindow.cpp
+playmultiwindow.cpp(16): warning C4100: “type”: 未引用的形参
+playmultiwindow.cpp(135): warning C4189: “oldFocus”: 局部变量已初始化但不引用
+  moc_playframe.cpp
+  moc_playmultiwindow.cpp
+  moc_prevscreennumctrl.cpp
+  moc_equipment.cpp
+  Demo.vcxproj -> C:\Users\Administrator\Desktop\Demo\release\Demo.exe

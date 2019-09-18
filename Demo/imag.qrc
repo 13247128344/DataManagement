@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resouse/1235.png</file>
+        <file>resouse/bj.png</file>
+        <file>resouse/enz.png</file>
+        <file>resouse/shebei.png</file>
+        <file>resouse/TTT.png</file>
+        <file>resouse/空白.png</file>
+        <file>resouse/圆角.png</file>
+    </qresource>
+</RCC>
