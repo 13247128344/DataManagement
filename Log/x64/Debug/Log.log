@@ -1,0 +1,8 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 ants_named_pipe_init，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 ants_named_pipe_setup，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 ants_named_pipe_setCallback，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 ants_named_pipe_sendMsgToServer，该符号在函数 main 中被引用
+E:\qt5.9.1\data\Log\lib\CMS_Connect_Client.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+E:\qt5.9.1\data\Log\lib\CMS_Connect_Parse.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+E:\qt5.9.1\data\Log\ants_ivms_pipeserver.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+debug\\ivms_Log.exe : fatal error LNK1120: 4 个无法解析的外部命令
