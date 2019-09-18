@@ -1,0 +1,3662 @@
+/***********************å…±æœ‰***********************/
+QPushButton[flat="true"]:disabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+/*#calSearch
+{
+	height: 200px;
+	min-height: 200px;
+	max-height: 200px;
+}*/
+
+QCalendarWidget QWidget#qt_calendar_navigationbar
+{
+	background-color:rgb(12,13,19);
+}
+
+QCalendarWidget QToolButton#qt_calendar_monthbutton,
+QCalendarWidget QToolButton#qt_calendar_yearbutton
+{
+	font-size: 14px;
+	font-family: "simsam";
+	color: rgb(180, 180, 180);
+}
+
+QCalendarWidget#qt_calendar_prevmonth,
+QCalendarWidget#qt_calendar_nextmonth
+{
+	color: rgb(180, 180, 180);
+	background-color: rgb(12, 13, 19);
+}
+
+QCalendarWidget QTableView
+{
+	font-size: 14px;
+	font-family: "simsam";
+	color: rgb(180, 180, 180);
+	background-color: rgb(12, 13, 19);
+}
+
+QCalendarWidget QComboBox,
+QCalendarWidget QComboBox:hover
+{
+	color: rgb(180, 180, 180);
+}
+
+QCalendarWidget QAbstractItemView
+{
+	selection-background-color: rgb(0, 169, 179);
+}
+
+QLineEdit, QComboBox
+{
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+	padding-left: 6px;
+}
+
+QComboBox:focus
+{
+	border:0;
+}
+
+QDateTimeEdit:focus,
+QSpinBox:focus,
+QComboBox:focus
+{
+    border:0;
+    background-color: rgba(0, 169, 179, 120);
+}
+
+QDateTimeEdit:disabled,
+QSpinBox:disabled
+{
+    border:0;
+	background-color: rgb(87, 88, 90);
+	color: rgb(160, 160, 160);
+}
+
+QMainWindow QLineEdit, QMainWindow QComboBox
+{
+	height: 37px;
+	max-height: 37px;
+	min-height: 37px;
+	color:rgb(240, 240, 240);
+	font-size: 16px;
+	background-color: rgb(67, 68, 70);
+	padding-left: 6px;
+}
+
+QPlainTextEdit,
+QTextEdit
+{
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+}
+
+QSpinBox
+{
+	border: 0;
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	color:rgb(240, 240, 240);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+}
+
+QDateTimeEdit
+{
+	border: 0;
+	height: 22px;
+	max-height: 22px;
+	min-height: 22px;
+	border: 1px solid rgb(79, 80, 86);
+	background-color: rgb(67, 68, 70);
+	color: rgb(240, 240, 240);
+	font-size: 12px;
+}
+
+QComboBox QAbstractItemView,
+QSpinBox QAbstractItemView,
+QSpinBox QAbstractItemView
+{
+	color:rgb(180, 180, 180);
+	font-size: 12px;
+	background-color: rgb(67, 68, 70);
+ 	selection-background-color: rgba(0, 169, 179, 120);
+ 	selection-color: rgb(240, 240, 240);
+}
+
+QGroupBox
+{
+	border:1px solid rgb(45, 47, 51);
+	color: rgb(180, 180, 180);
+	font-size: 14px;
+}
+
+QCheckBox
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+	font-size: 12px;
+}
+
+QLabel
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+/*	font-size: 12px;*/
+}
+
+QHeaderView::section
+{
+	background-color: qlineargradient(x1:0,y2:1,stop:0 #232428, stop:1 #0E0F13);
+	color: rgb(180, 180, 180);
+	border: 0;
+	border-left: 1px solid #0A0B10;
+	border-right: 1px solid #0A0B10;
+	font-weight: bold;
+	height: 38px;
+}
+
+QMenu 
+{
+	background-color: rgb(42, 43, 48);
+	color: rgb(180, 180, 180);
+}
+
+QMenu::item:selected
+{
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+QScrollBar:vertical,
+QScrollBar:horizontal
+{
+	background-color: gray;
+}
+
+QScrollBar:handle,
+QScrollBar:handle:hover
+{
+	background-color: rgb(83, 84, 93);
+}
+
+QTreeView, QTreeWidget, QListWidget
+{
+	background-color: rgb(42, 43, 48);
+	color: rgb(180, 180, 180);
+	padding-top: 10px;
+}
+
+QTableWidget,
+QTableView
+{
+	background-color: rgb(54, 56, 62);
+	alternate-background-color: rgb(72, 75, 82);
+	color: rgb(180, 180, 180);
+}
+
+QTreeView::item:hover,
+QTreeWidget::item:hover,
+QListWidget::item:hover
+{
+	background-color: rgba(0, 169, 179, 40);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::item:selected,
+QTreeWidget::item:selected,
+QListWidget::item:selected,
+QTableWidget::item:selected,
+QTableView::item:selected
+{
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings,
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings,
+QListWidget::branch:closed:has-children:!has-siblings,
+QListWidget::branch:closed:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings,
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings,
+QListWidget::branch:open:has-children:!has-siblings,
+QListWidget::branch:open:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-open.png);
+}
+
+QTreeWidget::branch:has-siblings:!adjoins-item
+{
+	border-image: url(./Resources/vline.png) 0;
+}
+
+QTreeWidget::branch:has-siblings:adjoins-item
+{
+	border-image: url(./Resources/branch-more.png) 0;
+}
+
+QTreeWidget::branch:!has-children:!has-siblings:adjoins-item
+{
+	border-image: url(./Resources/branch-end.png) 0;
+}
+
+/*å•é€‰æ?†æœªé€‰ä¸­æ ·å¼*/
+QRadioButton::indicator:unchecked {
+	
+	image: url(./Resources/radio-nomal.png);
+}
+/*å•é€‰æ?†é€‰ä¸­æ ·å¼*/
+QRadioButton::indicator:checked { 
+	image: url(./Resources/radio-checked.png);
+}
+/*æœ?é€‰ä¸­*/
+QCheckBox::indicator:unchecked {	
+	image: url(./Resources/check-arrow-nomal.png);
+}
+/*é€‰ä¸­*/
+QCheckBox::indicator:checked { 
+	image: url(./Resources/check-arrow-checked.png);
+}
+
+QSlider::groove:horizontal
+{
+	background-color: rgb(29, 205, 216);
+	height: 4px;
+	border-radius: 2px;
+	left: 6px;
+	right: 6px;
+}
+
+QSlider::add-page:horizontal
+{
+	background-color: rgb(20, 21, 23);
+}
+
+QSlider::handle:horizontal
+{
+	background-color: rgb(200, 200, 200);
+	width: 6px;
+	height: 10px;
+	margin: -6px -1px -6px -1px;
+	border-radius: 2px;
+	
+}
+
+#btnMin,
+#btn_minimum,
+#btn_minimum1
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_nomal.png);
+}
+
+#btnMin:hover, 
+#btnMin:pressed,
+#btn_minimum:hover, 
+#btn_minimum:pressed,
+#btn_minimum1:hover, 
+#btn_minimum1:pressed
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_active.png);
+}
+
+#btnClose, 
+#btn_close,
+#btn_close1
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_nomal.png);
+}
+
+#btnClose:hover, 
+#btnClose:pressed,
+#btn_close:hover, 
+#btn_close:pressed,
+#btn_close1:hover, 
+#btn_close1:pressed
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_active.png);
+}
+
+
+
+QPushButton[flat="true"]
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+QPushButton[flat="true"]:hover,
+QPushButton[flat="true"]:pressed
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic,
+#btnCnlMosaic,
+#btn_work_day,
+#btn_save_template
+{
+	min-width: 90px;
+	max-width: 90px;
+	width: 90px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic:hover,
+#btnMosaic:pressed,
+#btnCnlMosaic:hover,
+#btnCnlMosaic:pressed,
+#btn_work_day:hover,
+#btn_work_day:pressed,
+#btn_save_template:hover,
+#btn_save_template:pressed
+{
+	min-width: 90px;
+	max-width: 90px;
+	width: 90px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSaveAndEnable,
+#btnAddDistributor,
+#btnAddStorage,
+#btn_quota,
+#btn_parameter,
+#btnCalendarSearch
+{
+	min-width: 100px;
+	max-width: 100px;
+	width: 100px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSaveAndEnable:hover,
+#btnSaveAndEnable:pressed,
+#btnAddDistributor:hover,
+#btnAddDistributor:pressed,
+#btnAddStorage:hover,
+#btnAddStorage:pressed,
+#btn_quota:hover,
+#btn_quota:pressed,
+#btn_parameter:hover,
+#btn_parameter:pressed,
+#btnCalendarSearch:hover,
+#btnCalendarSearch:pressed
+{
+	min-width: 100px;
+	max-width: 100px;
+	width: 100px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnMosaic:disabled,
+#btnCnlMosaic:disabled,
+#btn_work_day:disabled,
+#btn_save_template:disabled,
+#btnAddDistributor:disabled,
+#btnAddStorage:disabled,
+#btn_quota:disabled,
+#btn_parameter:disabled,
+#btnCalendarSearch:disabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+/************************ç™»é™†**********************/
+QMainWindow #centralWidget
+{
+	background-color:rgb(20,21,26);
+}
+
+QMainWindow #lblAuto
+{
+	background-color:rgb(20,21,26);
+	color:rgb(20,21,26);
+}
+
+QMainWindow QLabel
+{
+    font-size:12px;
+    color: rgb(180, 180, 180);
+}
+
+QMainWindow QLabel#label_info
+{
+    font-size:12px;
+    color: red;
+}
+
+QMainWindow QLabel#label_logo
+{
+	min-width: 179px;
+	min-height: 47px;
+	width: 179px;
+	height: 47px;
+	background-image: url(./Resources/logo.png);
+}
+
+QMainWindow QLabel#label_user
+{
+	width: 41px;
+	height: 37px;
+	background-image: url(./Resources/user.png);
+}
+
+QMainWindow QLabel#label_password
+{
+	width: 41px;
+	height: 37px;
+	background-image: url(./Resources/password.png);
+}
+
+#label_language
+{
+	width: 41px;
+	height: 37px;
+	background-image: url(./Resources/language.png);
+}
+
+#btnCMSClose
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_nomal.png);
+}
+
+#btnCMSClose:hover,#btnCMSClose:pressed
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_active.png);
+}
+
+#btn_login
+{
+    height:33px;
+    width:120px;
+    font-size:20px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(0, 169, 179);
+    border-radius:3px;
+}
+
+#btn_login:hover, #btn_login:pressed
+{
+    background-color: rgba(0, 169, 179, 120);
+    border-radius:3px;
+    color: rgb(240, 240, 240);
+}
+
+
+#TvwallSetting #btnSet
+{
+	min-width: 50px;
+	max-width: 50px;
+	width: 50px;
+	height: 25px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#TvwallSetting #btnSet:hover,
+#TvwallSetting #btnSet:pressed
+{
+	min-width: 50px;
+	max-width: 50px;
+	width: 50px;
+	height: 25px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+/********************æŽ§åˆ¶é¢æ¿********************/
+#CtrlPanel QLabel
+{
+	background-color: transparent;
+	color: rgb(240, 240, 240);
+	font-size: 18px;
+}
+
+#tbpreview
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#tbpreview:hover
+{
+	background-color: rgba(0, 169, 179, 180);
+}
+
+#tbplayback
+{
+	background-color: rgb(155, 193, 66);
+}
+
+#tbplayback:hover
+{
+	background-color: rgba(155, 193, 66, 180);
+}
+
+#tbmap
+{
+	background-color: rgb(77, 156, 121);
+}
+
+#tbmap:hover
+{
+	background-color: rgba(77, 156, 121, 180);
+}
+
+#tbdecoder
+{
+	background-color: rgb(155, 193, 66);
+}
+
+#tbdecoder:hover
+{
+	background-color: rgba(155, 193, 66, 180);
+}
+
+#tbalarm
+{
+	background-color: rgb(211, 72, 39);
+}
+
+#tbalarm:hover
+{
+	background-color: rgba(211, 72, 39, 180);
+}
+
+#tblog
+{
+	background-color: rgb(88, 56, 179);
+}
+
+#tblog:hover
+{
+	background-color: rgba(88, 56, 179, 180);
+}
+
+#tbintelligent
+{
+	background-color: rgb(56, 175, 179);
+}
+
+#tbintelligent:hover
+{
+	background-color: rgba(56, 175, 179, 180);
+}
+
+#tbdevicemng
+{
+	background-color: rgb(155, 193, 66);
+}
+
+#tbdevicemng:hover
+{
+	background-color: rgba(155, 193, 66, 180);
+}
+
+#tbusersmng:enabled
+{
+	background-color: rgb(161, 0, 135);
+}
+
+#tbusersmng:hover:enabled
+{
+	background-color: rgba(161, 0, 135, 180);
+}
+
+#tbusersmng:!enabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+#tbmapmng:enabled
+{
+	background-color: rgb(236, 123, 32);
+}
+
+#tbmapmng:hover:enabled
+{
+	background-color: rgba(236, 123, 32, 180);
+}
+
+#tbmapmng:!enabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+#tbdecodermng:enabled
+{
+	background-color: rgb(77, 156, 121);
+}
+
+#tbdecodermng:hover:enabled
+{
+	background-color: rgba(77, 156, 121, 180);
+}
+
+#tbdecodermng:!enabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+#tbalarmmng
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#tbalarmmng:hover
+{
+	background-color: rgba(0, 169, 179, 180);
+}
+
+#tblocalmng
+{
+	background-color: rgb(55, 193, 66);
+}
+
+#tblocalmng:hover
+{
+	background-color: rgba(55, 193, 66, 180);
+}
+
+#tbintelligentmng
+{
+	background-color: rgb(69, 55, 193);
+}
+
+#tbintelligentmng:hover
+{
+	background-color: rgba(69, 55, 193, 180);
+}
+
+#tbpreview QLabel:disabled,
+#tbplayback QLabel:disabled,
+#tbmap QLabel:disabled,
+#tbdecoder QLabel:disabled,
+#tbalarm QLabel:disabled,
+#tblog QLabel:disabled,
+#tbintelligent QLabel:disabled
+{
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(240, 240, 240);
+}
+
+#tbdevicemng QLabel:disabled,
+#tbusersmng QLabel:disabled,
+#tbmapmng QLabel:disabled,
+#tbdecodermng QLabel:disabled,
+#tbalarmmng QLabel:disabled,
+#tblocalmng QLabel:disabled,
+#tbintelligentmng QLabel:disabled
+{
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(240, 240, 240);
+}
+
+#btnLogout
+{
+	border-image: url(./Resources/logout_active.png);
+}
+
+#MainDialog #label_logo
+{
+	min-width: 179px;
+	min-height: 47px;
+	max-width: 179px;
+	max-height: 47px;
+	width: 179px;
+	height: 47px;
+	margin-left:20px;
+	background-image: url(./Resources/logo.png);
+}
+
+#MainDialog #btn_maximum
+{
+	border-image: url(./Resources/maximum_nomal.png);
+}
+
+#MainDialog #btn_maximum:hover,
+#MainDialog #btn_maximum:pressed
+{
+	border-image: url(./Resources/maximum_active.png);
+}
+
+#MainDialog #maindlg_widget_title
+{
+	background-color: rgb(20,21,26);
+}
+
+
+
+#MainDialog #btn_maximum:checked
+{
+	border-image: url(./Resources/nomalsize_nomal.png);
+}
+
+#MainDialog #btn_maximum:checked:hover,
+#MainDialog #btn_maximum:checked:pressed
+{
+	border-image: url(./Resources/nomalsize_active.png);
+}
+/***********************TABé¡?**************************/
+#MyTabBar,
+#MyTabBar #widget,
+#MyTabBar #scrollAreaWidgetContents,
+#MyTabBar QScrollArea
+{
+	background-color: transparent;
+}
+
+#MyTab QLabel
+{
+	background-color: transparent;
+	color: rgb(240, 240, 240);
+	font-size: 16px;
+}
+
+#MyTab #btn_close
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_nomal.png);
+}
+
+#MyTab #btn_close:hover,#MyTab #btn_close:pressed
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_active.png);
+}
+
+#btn_left
+{
+	border-image: url(./Resources/left_nomal.png);
+}
+
+#btn_left:hover,
+#btn_left:pressed
+{
+	border-image: url(./Resources/left_active.png);
+}
+
+#btn_right
+{
+	border-image: url(./Resources/right_nomal.png);
+}
+
+#btn_right:hover,
+#btn_right:pressed
+{
+	border-image: url(./Resources/right_active.png);
+}
+
+#tab_ctrlpanel:enabled,
+#tab_preview:enabled,
+#tab_playback:enabled,
+#tab_map:enabled,
+#tab_decoder:enabled,
+#tab_alarm:enabled,
+#tab_log:enabled,
+#tab_intelligent:enabled
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(0, 169, 179);
+}
+
+#tab_devicemng:enabled,
+#tab_usermng:enabled,
+#tab_mapmng:enabled,
+#tab_decodermng:enabled,
+#tab_alarmmng:enabled,
+#tab_localmng:enabled,
+#tab_intelligentconfig:enabled,
+#tab_intelligentmanage:enabled,
+#tab_eventinfo:enabled
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(0, 169, 179);
+}
+
+#tab_ctrlpanel:!enabled,
+#tab_preview:!enabled,
+#tab_playback:!enabled,
+#tab_map:!enabled,
+#tab_decoder:!enabled,
+#tab_alarm:!enabled,
+#tab_log:!enabled,
+#tab_intelligent:!enabled
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(49, 51, 55);
+}
+
+#tab_devicemng:!enabled,
+#tab_usermng:!enabled,
+#tab_mapmng:!enabled,
+#tab_decodermng:!enabled,
+#tab_alarmmng:!enabled,
+#tab_localmng:!enabled,
+#tab_intelligentconfig:!enabled,
+#tab_intelligentmanage:!enabled,
+#tab_eventinfo:!enabled
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(49, 51, 55);
+}
+
+#tab_ctrlpanel #label_text:enabled,
+#tab_preview #label_text:enabled,
+#tab_playback #label_text:enabled,
+#tab_map #label_text:enabled,
+#tab_decoder #label_text:enabled,
+#tab_alarm #label_text:enabled,
+#tab_log #label_text:enabled,
+#tab_intelligent #label_text:enabled,
+#tab_devicemng #label_text:enabled,
+#tab_usermng #label_text:enabled,
+#tab_mapmng #label_text:enabled,
+#tab_decodermng #label_text:enabled,
+#tab_alarmmng #label_text:enabled,
+#tab_localmng #label_text:enabled,
+#tab_intelligentconfig #label_text:enabled,
+#tab_intelligentmanage #label_text:enabled,
+#tab_eventinfo #label_text:enabled
+{
+	font-size: 16px;
+	color: rgb(240, 240, 240);
+}
+
+#tab_ctrlpanel #label_text:!enabled,
+#tab_preview #label_text:!enabled,
+#tab_playback #label_text:!enabled,
+#tab_map #label_text:!enabled,
+#tab_decoder #label_text:!enabled,
+#tab_alarm #label_text:!enabled,
+#tab_log #label_text:!enabled,
+#tab_intelligent #label_text:!enabled,
+#tab_devicemng #label_text:!enabled,
+#tab_usermng #label_text:!enabled,
+#tab_mapmng #label_text:!enabled,
+#tab_decodermng #label_text:!enabled,
+#tab_alarmmng #label_text:!enabled,
+#tab_localmng #label_text:!enabled,
+#tab_intelligentconfig #label_text:!enabled,
+#tab_intelligentmanage #label_text:!enabled,
+#tab_eventinfo #label_text:!enabled
+{
+	font-size: 14px;
+	color: rgb(180, 180, 180);
+}
+
+#tab_ctrlpanel #label_icon:enabled
+{
+	background-image: url(./Resources/tab_ctrl_panel_active.png);
+}
+
+#tab_ctrlpanel #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_ctrl_panel_nomal.png);
+}
+
+#tab_preview #label_icon:enabled
+{
+	background-image: url(./Resources/tab_preview_active.png);
+}
+
+#tab_preview #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_preview_nomal.png);
+}
+
+#tab_playback #label_icon:enabled
+{
+	background-image: url(./Resources/tab_playback_active.png);
+}
+
+#tab_playback #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_playback_nomal.png);
+}
+
+#tab_map #label_icon:enabled
+{
+	background-image: url(./Resources/tab_map_active.png);
+}
+
+#tab_map #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_map_nomal.png);
+}
+
+#tab_decoder #label_icon:enabled
+{
+	background-image: url(./Resources/tab_decode_active.png);
+}
+
+#tab_decoder #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_decode_nomal.png);
+}
+
+#tab_alarm #label_icon:enabled
+{
+	background-image: url(./Resources/tab_alarm_active.png);
+}
+
+#tab_alarm #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_alarm_nomal.png);
+}
+
+#tab_log #label_icon:enabled
+{
+	background-image: url(./Resources/tab_log_active.png);
+}
+
+#tab_log #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_log_nomal.png);
+}
+
+#tab_devicemng #label_icon:enabled
+{
+	width: 50px;
+	min-width: 50px;
+	max-width: 50px;
+	background-image: url(./Resources/tab_device_manage_active.png);
+}
+
+#tab_devicemng #label_icon:!enabled
+{
+	width: 50px;
+	min-width: 50px;
+	max-width: 50px;
+	background-image: url(./Resources/tab_device_manage_nomal.png);
+}
+
+#tab_usermng #label_icon:enabled
+{
+	background-image: url(./Resources/tab_user_manage_active.png);
+}
+
+#tab_usermng #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_user_manage_nomal.png);
+}
+
+#tab_mapmng #label_icon:enabled
+{
+	background-image: url(./Resources/tab_map_config_active.png);
+}
+
+#tab_mapmng #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_map_config_nomal.png);
+}
+
+#tab_decodermng #label_icon:enabled
+{
+	background-image: url(./Resources/tab_decode_config_active.png);
+}
+
+#tab_decodermng #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_decode_config_nomal.png);
+}
+
+#tab_alarmmng #label_icon:enabled
+{
+	background-image: url(./Resources/tab_alarm_config_active.png);
+}
+
+#tab_alarmmng #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_alarm_config_nomal.png);
+}
+
+#tab_localmng #label_icon:enabled
+{
+	background-image: url(./Resources/tab_local_config_active.png);
+}
+
+#tab_localmng #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_local_config_nomal.png);
+}
+
+#tab_intelligentconfig #label_icon:enabled
+{
+	background-image: url(./Resources/FaceConfigSmall_Active.png); /*没有相应的智能配置标题栏图标*/
+}
+
+#tab_intelligentconfig #label_icon:!enabled
+{
+	background-image: url(./Resources/FaceConfigSmall_Nomal.png);  /*没有相应的智能配置标题栏图标*/
+}
+
+#tab_intelligentmanage #label_icon:enabled
+{
+	background-image: url(./Resources/FaceManageSmall_Active.png); /*没有相应的智能管理标题栏图标*/
+}
+
+#tab_intelligentmanage #label_icon:!enabled
+{
+	background-image: url(./Resources/FaceManageSmall_Nomal.png);  /*没有相应的智能管理标题栏图标*/
+}
+
+#tab_eventinfo #label_icon:enabled
+{
+	background-image: url(./Resources/tab_info_active.png);
+}
+
+#tab_eventinfo #label_icon:!enabled
+{
+	background-image: url(./Resources/tab_info_nomal.png);
+}
+
+/*********************å‘Šè?¦äº‹ä»¶ä¿¡æ?*********************/
+#btn_stay
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_stay_nomal.png);
+}
+
+#btn_stay:hover,
+#btn_stay:pressed
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_stay_active.png);
+}
+
+#btn_stay:checked
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_stay_a_nomal.png);
+}
+
+#btn_stay:checked:hover,
+#btn_stay:checked:pressed
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_stay_a_active.png);
+}
+
+#AlarmInfoWidget #btn_hide
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_hide_nomal.png);
+}
+
+#AlarmInfoWidget #btn_hide:hover,
+#AlarmInfoWidget #btn_hide:pressed
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_hide_active.png);
+}
+
+#AlarmInfoWidget #btn_hide:checked
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_show_nomal.png);
+}
+
+#AlarmInfoWidget #btn_hide:checked:hover,
+#AlarmInfoWidget #btn_hide:checked:pressed
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_show_active.png);
+}
+
+#AlarmInfoWidget #btn_maximum
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_maximum_nomal.png);
+}
+
+#AlarmInfoWidget #btn_maximum:hover,
+#AlarmInfoWidget #btn_maximum:pressed
+{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(28, 31, 36);
+	border-radius: 10px;
+	border-style: outset;
+	border-image: url(./Resources/small_maximum_active.png);
+}
+
+#AlarmInfoWidget #btn_event,
+#AlarmInfoWidget #btn_alarm
+{
+	width: 80px;
+	height: 23px;
+	background-color: rgb(34, 35, 39);
+	border-radius: 3px;
+	border: 0;
+}
+
+#AlarmInfoWidget #btn_event:checked,
+#AlarmInfoWidget #btn_alarm:checked
+{
+	width: 80px;
+	height: 23px;
+	background-color: rgb(59, 62, 69);
+	border-radius: 3px;
+	border: 0;
+}
+
+#btn_alarm_info
+{
+	border-image: url(./Resources/small_alarm_nomal.png);
+}
+
+#btn_alarm_info:hover,
+#btn_alarm_info:pressed
+{
+	border-image: url(./Resources/small_alarm_active.png);
+}
+
+#btn_clear
+{
+	border-image: url(./Resources/small_clear_nomal.png);
+}
+
+#btn_clear:hover,
+#btn_clear:pressed
+{
+	border-image: url(./Resources/small_clear_active.png);
+}
+
+#btn_close_sound
+{
+	border-image: url(./Resources/small_sound_close_nomal.png);
+}
+
+#btn_close_sound:hover,
+#btn_close_sound:pressed
+{
+	border-image: url(./Resources/small_sound_close_active.png);
+}
+
+#btn_open_sound
+{
+	border-image: url(./Resources/small_sound_close_nomal.png);
+}
+
+#btn_open_sound:hover,
+#btn_open_sound:pressed
+{
+	border-image: url(./Resources/small_sound_close_active.png);
+}
+
+#btn_open_sound:checked
+{
+	border-image: url(./Resources/small_sound_open_nomal.png);
+}
+
+#btn_open_sound:checked:hover,
+#btn_open_sound:checked:pressed
+{
+	border-image: url(./Resources/small_sound_open_active.png);
+}
+
+
+/************************å®žæ—¶é¢„è??**********************/
+#btnLeftHide,
+#btnRightHide:checked,
+#btnRHide:checked
+{
+	border-image: url(./Resources/left_hide.png);
+}
+
+#btnLeftHide:hover,
+#btnLeftHide:pressed,
+#btnRightHide:checked:hover,
+#btnRightHide:checked:pressed,
+#btnRHide:checked:hover,
+#btnRHide:checked:pressed
+{
+	border-image: url(./Resources/left_hide_a.png);
+}
+
+#btnRightHide,
+#btnRHide,
+#btnLeftHide:checked
+{
+	border-image: url(./Resources/right_hide.png);
+}
+
+#btnRightHide:hover,
+#btnRightHide:pressed,
+#btnR:hover,
+#btnR:pressed,
+#btnLeftHide:checked:hover,
+#btnLeftHide:checked:pressed
+{
+	border-image: url(./Resources/right_hide_a.png);
+}
+
+#VPreview #btnDev
+{
+	border:0;
+	background-color: rgb(11, 12, 15);
+	color: rgb(180, 180, 180);
+	border-top-left-radius: 5px;
+}
+
+#VPreview #btnDev:checked
+{
+	border:0;
+	background-color: rgb(0, 169, 179);
+	color: rgb(240, 240, 240);
+	border-top-left-radius: 5px;
+}
+
+#VPreview #btnGroup
+{
+	border:0;
+	background-color: rgb(11, 12, 15);
+	color: rgb(180, 180, 180);
+}
+
+#VPreview #btnGroup:checked
+{
+	border:0;
+	background-color: rgb(0, 169, 179);
+	color: rgb(240, 240, 240);
+}
+
+#VPreview #btnLayout
+{
+	border:0;
+	background-color: rgb(11, 12, 15);
+	color: rgb(180, 180, 180);
+	border-top-right-radius: 5px;
+}
+
+#VPreview #btnLayout:checked
+{
+	border:0;
+	background-color: rgb(0, 169, 179);
+	color: rgb(240, 240, 240);
+	border-top-right-radius: 5px;
+}
+
+#btnAlarmOutSet
+{
+	min-width: 16px;
+	min-height: 16px;
+	width: 16px;
+	height: 16px;
+	border-image: url(./Resources/alarm.gif);
+}
+
+#btnAlarmInSet
+{
+	min-width: 16px;
+	min-height: 16px;
+	width: 16px;
+	height: 16px;
+	border-image: url(./Resources/alarmin.png);
+}
+
+#btn_icon
+{
+	min-width: 16px;
+	min-height: 16px;
+	width: 16px;
+	height: 16px;
+	border-image: url(./Resources/ch_link.png);
+}
+
+#VPrevSplitCtrl #widget,
+#widgetSeparator1,
+#widgetSeparator2,
+#widgetSeparator3,
+#widgetSeparator4
+{
+	border-image: url(./Resources/separator_right.png);
+}
+
+#sliderPtzSpeed::groove:horizontal
+{
+	background-color: rgb(146, 179, 72);
+	height: 4px;
+	border-radius: 2px;
+	left: 6px;
+	right: 6px;
+}
+
+#sliderPtzSpeed::add-page:horizontal
+{
+	background-color: rgb(20, 21, 23);
+}
+
+#sliderPtzSpeed::handle:horizontal
+{
+	background-color: rgb(200, 200, 200);
+	width: 6px;
+	height: 10px;
+	margin: -6px -1px -6px -1px;
+	border-radius: 2px;
+	
+}
+
+#btnLeftUp
+{
+	border-image: url(./Resources/ptz_1.png);
+}
+
+#btnLeftUp:hover,
+#btnLeftUp:pressed
+{
+	border-image: url(./Resources/ptz_1a.png);
+}
+
+#PrevPtzCtrl #btnUp
+{
+	border-image: url(./Resources/ptz_2.png);
+}
+
+#PrevPtzCtrl #btnUp:hover,
+#PrevPtzCtrl #btnUp:pressed
+{
+	border-image: url(./Resources/ptz_2a.png);
+}
+
+#btnRightUp
+{
+	border-image: url(./Resources/ptz_3.png);
+}
+
+#btnRightUp:hover,
+#btnRightUp:pressed
+{
+	border-image: url(./Resources/ptz_3a.png);
+}
+
+#btnLeft
+{
+	border-image: url(./Resources/ptz_4.png);
+}
+
+#btnLeft:hover,
+#btnLeft:pressed
+{
+	border-image: url(./Resources/ptz_4a.png);
+}
+
+#btnAuto
+{
+	border-image: url(./Resources/ptz_5.png);
+}
+
+#btnAuto:hover,
+#btnAuto:pressed
+{
+	border-image: url(./Resources/ptz_5a.png);
+}
+
+#btnRight
+{
+	border-image: url(./Resources/ptz_6.png);
+}
+
+#btnRight:hover,
+#btnRight:pressed
+{
+	border-image: url(./Resources/ptz_6a.png);
+}
+
+#btnLeftDown
+{
+	border-image: url(./Resources/ptz_7.png);
+}
+
+#btnLeftDown:hover,
+#btnLeftDown:pressed
+{
+	border-image: url(./Resources/ptz_7a.png);
+}
+
+#PrevPtzCtrl #btnDown
+{
+	border-image: url(./Resources/ptz_8.png);
+}
+
+#PrevPtzCtrl #btnDown:hover,
+#PrevPtzCtrl #btnDown:pressed
+{
+	border-image: url(./Resources/ptz_8a.png);
+}
+
+#btnRightDown
+{
+	border-image: url(./Resources/ptz_9.png);
+}
+
+#btnRightDown:hover,
+#btnRightDown:pressed
+{
+	border-image: url(./Resources/ptz_9a.png);
+}
+
+#btnZoomOut
+{
+	border-image: url(./Resources/zoom_out.png);
+}
+
+#btnZoomOut:hover,
+#btnZoomOut:pressed
+{
+	border-image: url(./Resources/zoom_out_a.png);
+}
+
+#btnZoomIn
+{
+	border-image: url(./Resources/zoom_in.png);
+}
+
+#btnZoomIn:hover,
+#btnZoomIn:pressed
+{
+	border-image: url(./Resources/zoom_in_a.png);
+}
+
+#btnFocusFar
+{
+	border-image: url(./Resources/zoom_out.png);
+}
+
+#btnFocusFar:hover,
+#btnFocusFar:pressed
+{
+	border-image: url(./Resources/zoom_out_a.png);
+}
+
+#btnFocusNear
+{
+	border-image: url(./Resources/zoom_in.png);
+}
+
+#btnFocusNear:hover,
+#btnFocusNear:pressed
+{
+	border-image: url(./Resources/zoom_in_a.png);
+}
+
+#btnIrisOpen
+{
+	border-image: url(./Resources/zoom_out.png);
+}
+
+#btnIrisOpen:hover,
+#btnIrisOpen:pressed
+{
+	border-image: url(./Resources/zoom_out_a.png);
+}
+
+#btnIrisClose
+{
+	border-image: url(./Resources/zoom_in.png);
+}
+
+#btnIrisClose:hover,
+#btnIrisClose:pressed
+{
+	border-image: url(./Resources/zoom_in_a.png);
+}
+
+#widgetZoomOut,
+#widgetZoomIn,
+#widgetFocusOut,
+#widgetFocusIn,
+#widgetIrisFar,
+#widgetIrisNear,
+#widgetPresetAdd,
+#widgetPresetEdit,
+#widgetPresetDel,
+#widgetCruiseAdd,
+#widgetCruiseEdit,
+#widgetCruiseDel,
+#widgetTrackAdd,
+#widgetTrackEdit,
+#widgetTrackDel
+{
+	border-image: url(./Resources/focus_background.png);
+}
+
+#widgetPtz
+{
+	border-image: url(./Resources/ptz_background.png);
+}
+
+#btnPresetAdd,
+#btnCruiseAdd,
+#btnTrackAdd
+{
+	border-image: url(./Resources/preset_add.png);
+}
+
+#btnPresetAdd:hover,
+#btnPresetAdd:pressed,
+#btnCruiseAdd:hover,
+#btnCruiseAdd:pressed,
+#btnTrackAdd:hover,
+#btnTrackAdd:pressed
+{
+	border-image: url(./Resources/preset_add_a.png);
+}
+
+#btnPresetDel,
+#btnCruiseDel,
+#btnTrackDel
+{
+	border-image: url(./Resources/preset_del.png);
+}
+
+#btnPresetDel:hover,
+#btnPresetDel:pressed,
+#btnCruiseDel:hover,
+#btnCruiseDel:pressed,
+#btnTrackDel:hover,
+#btnTrackDel:pressed
+{
+	border-image: url(./Resources/preset_del_a.png);
+}
+
+#btnPresetGoto,
+#btnCruiseGoto,
+#btnTrackGoto
+{
+	border-image: url(./Resources/preset_edit.png);
+}
+
+#btnPresetGoto:hover,
+#btnPresetGoto:pressed,
+#btnCruiseGoto:hover,
+#btnCruiseGoto:pressed,
+#btnTrackGoto:hover,
+#btnTrackGoto:pressed
+{
+	border-image: url(./Resources/preset_edit_a.png);
+}
+
+#btnCruiseGoto:checked
+{
+	border-image: url(./Resources/preset_del.png);
+}
+
+#btnCruiseGoto:checked:hover,
+#btnCruiseGoto:checked:pressed
+{
+	border-image: url(./Resources/preset_del_a.png);
+}
+
+#btnTrackAdd:checked
+{
+	border-image: url(./Resources/preset_add_a.png);
+}
+
+#btnTrackAdd:checked:hover,
+#btnTrackAdd:checked:pressed
+{
+	border-image: url(./Resources/preset_add_a.png);
+}
+
+#btnTrackGoto:checked
+{
+	border-image: url(./Resources/preset_edit_a.png);
+}
+
+#btnTrackGoto:checked:hover,
+#btnTrackGoto:checked:pressed
+{
+	border-image: url(./Resources/preset_edit_a.png);
+}
+
+#btnFullScreen
+{
+	border-image: url(./Resources/full_screen.png);
+}
+
+#btnFullScreen:hover,
+#btnFullScreen:pressed
+{
+	border-image: url(./Resources/full_screen_a.png);
+}
+
+#btnCapture
+{
+	border-image: url(./Resources/capture.png);
+}
+
+#btnCapture:hover,
+#btnCapture:pressed
+{
+	border-image: url(./Resources/capture_a.png);
+}
+
+#PrevOtherCtrl #btnTalk,
+#VPrevOtherCtrl #btnTalk
+{
+	border-image: url(./Resources/voice_talk_close.png);
+}
+
+#PrevOtherCtrl #btnTalk:hover,
+#PrevOtherCtrl #btnTalk:pressed,
+#VPrevOtherCtrl #btnTalk:hover,
+#VPrevOtherCtrl #btnTalk:pressed
+{
+	border-image: url(./Resources/voice_talk_close_a.png);
+}
+
+#PrevOtherCtrl #btnTalk:checked,
+#VPrevOtherCtrl #btnTalk:checked
+{
+	border-image: url(./Resources/talk.png);
+}
+
+#PrevOtherCtrl #btnTalk:checked:hover,
+#PrevOtherCtrl #btnTalk:checked:pressed,
+#VPrevOtherCtrl #btnTalk:checked:hover,
+#VPrevOtherCtrl #btnTalk:checked:pressed
+{
+	border-image: url(./Resources/talk_a.png);
+}
+
+#VPrevOtherCtrl #btnStop
+{
+	border-image: url(./Resources/stop_all.png);
+}
+
+#VPrevOtherCtrl #btnStop:hover,
+#VPrevOtherCtrl #btnStop:pressed
+{
+	border-image: url(./Resources/stop_all_a.png);
+}
+
+#VPrevOtherCtrl #btnUTC,
+#PrevOtherCtrl #btnUTC
+{
+	border-image: url(./Resources/utc.png);
+}
+
+#VPrevOtherCtrl #btnUTC:checked,
+#VPrevOtherCtrl #btnUTC:hover,
+#PrevOtherCtrl #btnUTC:checked,
+#PrevOtherCtrl #btnUTC:hover
+{
+	border-image: url(./Resources/utc_a.png);
+}
+
+#VPrevOtherCtrl #btn3DPos,
+#PrevOtherCtrl #btn3DPos
+{
+	border-image: url(./Resources/3dpos.png);
+}
+
+#VPrevOtherCtrl #btn3DPos:checked,
+#VPrevOtherCtrl #btn3DPos:hover,
+#PrevOtherCtrl #btn3DPos:checked,
+#PrevOtherCtrl #btn3DPos:hover
+
+{
+	border-image: url(./Resources/3dpos_a.png);
+}
+
+#btnWinCapture
+{
+	border-image: url(./Resources/capture_small.png);
+}
+
+#btnWinCapture:hover,
+#btnWinCapture:pressed
+{
+	border-image: url(./Resources/capture_small_a.png);
+}
+
+#btnWinMotion
+{
+	border-image: url(./Resources/motion_small.png);
+}
+
+#btnWinMotion:hover,
+#btnWinMotion:pressed
+{
+	border-image: url(./Resources/motion_small_a.png);
+}
+
+#btnWinClose
+{
+	border-image: url(./Resources/close_small.png);
+}
+
+#btnWinClose:hover,
+#btnWinClose:pressed
+{
+	border-image: url(./Resources/close_small_a.png);
+}
+
+#btnWinTalk
+{
+	border-image: url(./Resources/talk_close_small.png);
+}
+
+#VPreview #btnWinTalk:hover,
+#VPreview #btnWinTalk:pressed
+{
+	border-image: url(./Resources/talk_close_small_a.png);
+}
+
+#btnWinTalk:checked
+{
+	border-image: url(./Resources/talk_small.png);
+}
+
+#btnWinTalk:checked:hover,
+#btnWinTalk:checked:pressed
+{
+	border-image: url(./Resources/talk_small_a.png);
+}
+
+#btnWinAudio
+{
+	border-image: url(./Resources/audio_close_small.png);
+}
+
+#btnWinAudio:hover,
+#btnWinAudio:pressed
+{
+	border-image: url(./Resources/audio_close_small_a.png);
+}
+
+#btnWinAudio:checked
+{
+	border-image: url(./Resources/audio_small.png);
+}
+
+#btnWinAudio:checked:hover,
+#btnWinAudio:checked:pressed
+{
+	border-image: url(./Resources/audio_small_a.png);
+}
+
+#btnWinRec
+{
+	border-image: url(./Resources/record_small.png);
+}
+
+#btnWinRec:hover,
+#btnWinRec:checked
+{
+	border-image: url(./Resources/record_small_a.png);
+}
+
+#PrevOtherCtrl #btnSound
+{
+	border-image: url(./Resources/sound_close.png);
+}
+
+#PrevOtherCtrl #btnSound:hover,
+#PrevOtherCtrl #btnSound:pressed
+{
+	border-image: url(./Resources/sound_close_a.png);
+}
+
+#PrevOtherCtrl #btnSound:checked
+{
+	border-image: url(./Resources/sound_play.png);
+}
+
+#PrevOtherCtrl #btnSound:checked:hover,
+#PrevOtherCtrl #btnSound:checked:pressed
+{
+	border-image: url(./Resources/sound_play_a.png);
+}
+
+#PlayControl #btnAudio,
+#PlaybackControl #btnAudio,
+#DecoderControl #btnAudio
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/sound_close.png);
+}
+
+#PlayControl #btnAudio:hover,
+#PlayControl #btnAudio:pressed,
+#PlaybackControl #btnAudio:hover,
+#PlaybackControl #btnAudio:pressed,
+#DecoderControl #btnAudio:hover,
+#DecoderControl #btnAudio:pressed
+{
+	border-image: url(./Resources/sound_close_a.png);
+}
+
+
+#PlayControl #btnAudio:checked,
+#PlaybackControl #btnAudio:checked,
+#DecoderControl #btnAudio:checked
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/sound_play.png);
+}
+
+#PlayControl #btnAudio:checked:hover,
+#PlayControl #btnAudio:checked:pressed,
+#PlaybackControl #btnAudio:checked:hover,
+#PlaybackControl #btnAudio:checked:pressed,
+#DecoderControl #btnAudio:checked:hover,
+#DecoderControl #btnAudio:checked:pressed
+{
+	border-image: url(./Resources/sound_play_a.png);
+}
+
+#DecoderControl #widget,
+#DecoderControl #widgetPrev
+{
+	border-image: url(./Resources/playbar_bg.png);
+}
+#btnSplit1
+{
+	border-image: url(./Resources/1window.png);
+}
+
+#btnSplit1:hover,
+#btnSplit1:pressed
+{
+	border-image: url(./Resources/1window_a.png);
+}
+
+#btnSplit4
+{
+	border-image: url(./Resources/4window.png);
+}
+
+#btnSplit4:hover,
+#btnSplit4:pressed
+{
+	border-image: url(./Resources/4window_a.png);
+}
+
+#btnSplit9
+{
+	border-image: url(./Resources/9window.png);
+}
+
+#btnSplit9:hover,
+#btnSplit9:pressed
+{
+	border-image: url(./Resources/9window_a.png);
+}
+
+#btnSplit16
+{
+	border-image: url(./Resources/16window.png);
+}
+
+#btnSplit16:hover,
+#btnSplit16:pressed
+{
+	border-image: url(./Resources/16window_a.png);
+}
+
+#btnSplit25
+{
+	border-image: url(./Resources/25window.png);
+}
+
+#btnSplit25:hover,
+#btnSplit25:pressed
+{
+	border-image: url(./Resources/25window_a.png);
+}
+
+#btnSplit36
+{
+	border-image: url(./Resources/36window.png);
+}
+
+#btnSplit36:hover,
+#btnSplit36:pressed
+{
+	border-image: url(./Resources/36window_a.png);
+}
+
+#btnSplit64
+{
+	border-image: url(./Resources/64window.png);
+}
+
+#btnSplit64:hover,
+#btnSplit64:pressed
+{
+	border-image: url(./Resources/64window_a.png);
+}
+
+#btnSplit6
+{
+	border-image: url(./Resources/6window.png);
+}
+
+#btnSplit6:hover,
+#btnSplit6:pressed
+{
+	border-image: url(./Resources/6window_a.png);
+}
+
+#btnSplit8
+{
+	border-image: url(./Resources/8window.png);
+}
+
+#btnSplit8:hover,
+#btnSplit8:pressed
+{
+	border-image: url(./Resources/8window_a.png);
+}
+
+#btnSplit10
+{
+	border-image: url(./Resources/10window.png);
+}
+
+#btnSplit10:hover,
+#btnSplit10:pressed
+{
+	border-image: url(./Resources/10window_a.png);
+}
+
+#btnSplit13
+{
+	border-image: url(./Resources/13window.png);
+}
+
+#btnSplit13:hover,
+#btnSplit13:pressed
+{
+	border-image: url(./Resources/13window_a.png);
+}
+
+#btnSplit17
+{
+	border-image: url(./Resources/17window.png);
+}
+
+#btnSplit17:hover,
+#btnSplit17:pressed
+{
+	border-image: url(./Resources/17window_a.png);
+}
+
+#btnSplit21
+{
+	border-image: url(./Resources/21window.png);
+}
+
+#btnSplit21:hover,
+#btnSplit21:pressed
+{
+	border-image: url(./Resources/21window_a.png);
+}
+
+#btnSplit49
+{
+	border-image: url(./Resources/49window.png);
+}
+
+#btnSplit49:hover,
+#btnSplit49:pressed
+{
+	border-image: url(./Resources/49window_a.png);
+}
+
+#btnSplit4_2
+{
+	border-image: url(./Resources/K4window.png);
+}
+
+#btnSplit4_2:hover,
+#btnSplit4_2:pressed
+{
+	border-image: url(./Resources/K4window_a.png);
+}
+
+#btnSplit6_2
+{
+	border-image: url(./Resources/K6window.png);
+}
+
+#btnSplit6_2:hover,
+#btnSplit6_2:pressed
+{
+	border-image: url(./Resources/K6window_a.png);
+}
+
+#btnSplit7
+{
+	border-image: url(./Resources/K7window.png);
+}
+
+#btnSplit7:hover,
+#btnSplit7:pressed
+{
+	border-image: url(./Resources/K7window_a.png);
+}
+
+#btnSplit9_2
+{
+	border-image: url(./Resources/K9window.png);
+}
+
+#btnSplit9_2:hover,
+#btnSplit9_2:pressed
+{
+	border-image: url(./Resources/K9window_a.png);
+}
+
+#btnSplit12
+{
+	border-image: url(./Resources/K12window.png);
+}
+
+#btnSplit12:hover,
+#btnSplit12:pressed
+{
+	border-image: url(./Resources/K12window_a.png);
+}
+
+#btnSplit16_2
+{
+	border-image: url(./Resources/K16window.png);
+}
+
+#btnSplit16_2:hover,
+#btnSplit16_2:pressed
+{
+	border-image: url(./Resources/K16window_a.png);
+}
+
+#btnSplit24
+{
+	border-image: url(./Resources/K24window.png);
+}
+
+#btnSplit24:hover,
+#btnSplit24:pressed
+{
+	border-image: url(./Resources/K24window_a.png);
+}
+
+#btnSplit36_2
+{
+	border-image: url(./Resources/K36window.png);
+}
+
+#btnSplit36_2:hover,
+#btnSplit36_2:pressed
+{
+	border-image: url(./Resources/K36window_a.png);
+}
+
+#btnSplit48
+{
+	border-image: url(./Resources/K48window.png);
+}
+
+#btnSplit48:hover,
+#btnSplit48:pressed
+{
+	border-image: url(./Resources/K48window_a.png);
+}
+
+#widgetPrevUp:!disabled,
+#widgetPrevDown:!disabled,
+#widgetPrevLeft:!disabled,
+#widgetPrevRight:!disabled
+{
+	background-color: rgb(27, 28, 32);
+}
+
+#widgetPrevUp:disabled,
+#widgetPrevDown:disabled,
+#widgetPrevLeft:disabled,
+#widgetPrevRight:disabled
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#PrevWindow #widgetUp:!disabled,
+#PrevWindow #widgetDown:!disabled,
+#PrevWindow #widgetLeft:!disabled,
+#PrevWindow #widgetRight:!disabled
+{
+	background-color: rgb(27, 28, 32);
+}
+
+#PrevWindow #widgetUp:disabled,
+#PrevWindow #widgetDown:disabled,
+#PrevWindow #widgetLeft:disabled,
+#PrevWindow #widgetRight:disabled
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#widgetCellUp,
+#widgetCellDown,
+#widgetCellLeft,
+#widgetCellRight
+{
+	border: 0;
+	background-color: rgb(32, 33, 38);
+}
+
+#widgetCellUp:checked,
+#widgetCellDown:checked,
+#widgetCellLeft:checked,
+#widgetCellRight:checked
+{
+	border: 0;
+	background-color: rgb(0, 169, 179);
+}
+
+#widgetDecUp,
+#widgetDecDown,
+#widgetDecLeft,
+#widgetDecRight
+{
+	border: 0;
+	background-color: rgb(32, 33, 38);
+}
+
+#widgetDecUp:checked,
+#widgetDecDown:checked,
+#widgetDecLeft:checked,
+#widgetDecRight:checked
+{
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+}
+/************************å½•åƒå›žæ”¾**********************/
+#btnFramePlay
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/frame.png);
+}
+
+#btnFramePlay:hover,
+#btnFramePlay:pressed
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/frame_a.png);
+}
+
+#btnSlow
+{
+	border-image: url(./Resources/slow.png);
+}
+
+#btnSlow:hover,
+#btnSlow:pressed
+{
+	border-image: url(./Resources/slow_a.png);
+}
+
+#btnFast
+{
+	border-image: url(./Resources/fast.png);
+}
+
+#btnFast:hover,
+#btnFast:pressed
+{
+	border-image: url(./Resources/fast_a.png);
+}
+
+#btnOffset
+{
+	border-image: url(./Resources/seek.png);
+}
+
+#btnOffset:hover,
+#btnOffset:pressed
+{
+	border-image: url(./Resources/seek_a.png);
+}
+
+#btnReset
+{
+	border-image: url(./Resources/reset.png);
+}
+
+#btnReset:hover,
+#btnReset:pressed
+{
+	border-image: url(./Resources/reset_a.png);
+}
+
+#DeviceTitle #btnDev,
+#Devices #btnDev
+{
+	border: 0;
+	background-color: rgb(11, 12, 15);
+	border-top-left-radius: 5px;
+	color: rgb(180, 180, 180);
+}
+
+#DeviceTitle #btnDev:checked,
+#Devices #btnDev:checked
+{
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	border-top-left-radius: 5px;
+	color: rgb(240, 240, 240);
+}
+
+#DeviceTitle #btnStorage,
+#Devices #btnStorage
+{
+	border: 0;
+	background-color: rgb(11, 12, 15);
+	border-top-right-radius: 5px;
+	color: rgb(180, 180, 180);
+}
+
+#DeviceTitle #btnStorage:checked,
+#Devices #btnStorage:checked
+{
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	border-top-right-radius: 5px;
+	color: rgb(240, 240, 240);
+}
+
+#DeviceTitle #btnGroup,
+#Devices #btnGroup
+{
+	border: 0;
+	background-color: rgb(11, 12, 15);
+	border-top-right-radius: 5px;
+	color: rgb(180, 180, 180);
+}
+
+#DeviceTitle #btnGroup:checked,
+#Devices #btnGroup:checked
+{
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	border-top-right-radius: 5px;
+	color: rgb(240, 240, 240);
+}
+
+#DeviceTitle #btnLocal,
+#Devices #btnLocal
+{
+	border: 0;
+	background-color: rgb(11, 12, 15);
+	color: rgb(180, 180, 180);
+}
+
+#DeviceTitle #btnLocal:checked,
+#Devices #btnLocal:checked
+{
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	color: rgb(240, 240, 240);
+}
+
+#btnDownload
+{
+	border-image: url(./Resources/download.png);
+}
+
+#btnDownload:hover,
+#btnDownload:pressed
+{
+	border-image: url(./Resources/download_a.png);
+}
+
+#btnPlayPB,
+#btnDecoderPlay
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/play.png);
+}
+
+#btnPlayPB:hover,
+#btnPlayPB:pressed,
+#btnDecoderPlay:hover,
+#btnDecoderPlay:pressed
+{
+	border-image: url(./Resources/play_a.png);
+}
+
+#btnPlayPB:checked,
+#btnDecoderPause
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/pause.png);
+}
+
+#btnPlayPB:checked:hover,
+#btnPlayPB:checked:pressed,
+#btnDecoderPause:hover,
+#btnDecoderPause:pressed
+{
+	border-image: url(./Resources/pause_a.png);
+}
+
+#btnStopPB
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/stop.png);
+}
+
+#btnStopPB:hover,
+#btnStopPB:pressed
+{
+	border-image: url(./Resources/stop_a.png);
+}
+
+#btnBrowse,
+#btnDownloadPathOpen
+{
+	width:60px;
+	min-width:60px;
+	max-width:60px;
+}
+
+/************************åœ°å›¾ç®¡ç†**********************/
+#gvMap
+{
+	background-color: rgb(42, 43, 48);
+	border: 1 solid rgb(77, 78, 83);
+}
+
+#AddMap #toolButton,
+#IconList #toolButton,
+#btnSelCh
+{
+	min-width: 37px;
+	max-width: 37px;
+	width: 37px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#AddMap #toolButton:hover,
+#AddMap #toolButton:pressed,
+#IconList #toolButton:hover,
+#IconList #toolButton:pressed,
+#btnSelCh:hover,
+#btnSelCh:pressed
+{
+	min-width: 37px;
+	max-width: 37px;
+	width: 37px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnFAN,
+#btnLight,
+#btnWiper
+{
+	min-width: 40px;
+	max-width: 40px;
+	width: 40px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnFAN:hover,
+#btnFAN:pressed,
+#btnLight:hover,
+#btnLight:pressed,
+#btnWiper:hover,
+#btnWiper:pressed
+{
+	min-width: 40px;
+	max-width: 40px;
+	width: 40px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+/************************è§£ç ç®¡ç†**********************/
+#btnPreview,
+#btnPlayback
+{
+	background-color: rgb(11, 12, 15);
+	border: 0;
+	color: rgb(180, 180, 180);
+}
+
+#btnPreview:checked,
+#btnPlayback:checked
+{
+	background-color: rgb(0, 169, 179);
+	border: 0;
+	color: rgb(240, 240, 240);
+}
+
+#btnPreview:checked:hover,
+#btnPreview:checked:hover,
+#btnPlayback:checked:pressed,
+#btnPlayback:checked:pressed
+{
+	background-color: rgb(0, 169, 179, 120);
+	border: 0;
+	color: rgb(240, 240, 240);
+}
+
+#Decoder #widgetLeft,
+#Decoder #widget,
+#Decoder #widgetControl
+{
+	background-color: rgb(20,21,23);
+}
+
+#AddDev #btnSearch
+{
+	width: auto;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#AddDev #btnSearch:hover,
+#AddDev #btnSearch:pressed
+{
+	width: auto;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#CopyCHConfig #gridWidget
+{
+	background-color: rgb(29, 30, 33);
+}
+
+#CopyCHConfig QPushButton:disabled
+{
+	width: 16px;
+	height: 16px;
+	border-image: url(./Resources/dev_link.png);
+}
+
+#SeniorWidget #widget
+{
+	background-color: rgb(29, 30, 33);
+}
+
+#SeniorWidget #stackedWidget
+{
+	border: 1px solid rgb(130, 135, 144);
+	background-color: rgb(42, 43, 48);
+}
+
+#encChIcon
+{
+	border-image: url(./Resources/3.png);
+}
+
+#TvwallSetting #widgetControl
+{
+	background-color: rgb(21, 22, 26);
+}
+
+#widgetStep1
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#widgetLine1,
+#widgetLine2
+{
+	background-color: rgb(44, 45, 48);
+}
+
+#DecoderView #btnAlarm
+{
+	border-image: url(./Resources/small_alarm_nomal.png);
+}
+
+#DecoderView #btnAlarm:hover,
+#DecoderView #btnAlarm:pressed
+{
+	border-image: url(./Resources/small_alarm_active.png);
+}
+
+#DecoderView #btnRemove,
+#MatrixCell #btnRemove
+{
+	border-image: url(./Resources/close_small.png);
+}
+
+#DecoderView #btnRemove:hover,
+#DecoderView #btnRemove:pressed,
+#MatrixCell #btnRemove:hover,
+#MatrixCell #btnRemove:pressed
+{
+	border-image: url(./Resources/close_small_a.png);
+}
+
+#DecoderView #btnClearChannel
+{
+	border-image: url(./Resources/clear.png);
+}
+
+#DecoderView #btnClearChannel:hover,
+#DecoderView #btnClearChannel:pressed
+{
+	border-image: url(./Resources/clear_a.png);
+}
+
+#btnChangeAbility
+{
+	border-image: url(./Resources/net_setting.png);
+}
+
+#btnChangeAbility:hover,
+#btnChangeAbility:pressed
+{
+	border-image: url(./Resources/net_setting_a.png);
+}
+
+#btnPrevGroup
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/prev_group.png);
+}
+
+#btnPrevGroup:hover,
+#btnPrevGroup:pressed
+{
+	border-image: url(./Resources/prev_group_a.png);
+}
+
+#btnNextGroup
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/next_group.png);
+}
+
+#btnNextGroup:hover,
+#btnNextGroup:pressed
+{
+	border-image: url(./Resources/next_group_a.png);
+}
+
+#btnRollGroup
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/roll.png);
+}
+
+#btnRollGroup:hover,
+#btnRollGroup:pressed
+{
+	border-image: url(./Resources/roll_a.png);
+}
+
+#btnRollGroup:checked
+{
+	background-image: url(./Resources/play_btn_bg.png);
+	border-image: url(./Resources/pause.png);
+}
+
+#btnRollGroup:checked:hover,
+#btnRollGroup:checked:pressed
+{
+	border-image: url(./Resources/pause_a.png);
+}
+
+#btnClear
+{
+	border-image: url(./Resources/stop_all.png);
+}
+
+#btnClear:hover,
+#btnClear:pressed
+{
+	border-image: url(./Resources/stop_all_a.png);
+}
+
+#AddTvGroup #widgetEdit
+{
+	background-color: rgb(12, 12, 14);
+}
+
+#btnDecPreview
+{
+	border-image: url(./Resources/play-normal.png);
+}
+
+#btnDecPreview:hover
+{
+	border-image: url(./Resources/play-active.png);
+}
+
+#btnDecPreview:checked
+{
+	border-image: url(./Resources/disable-play-active.png);
+}
+
+#btnDecPreview:checked:hover
+{
+	border-image: url(./Resources/disable-play-active.png);
+}
+
+#btnDecoder:checked,
+#btnPassive:checked
+{
+	border-image: url(./Resources/active.png);
+}
+
+#btnDecoder:checked:hover,
+#btnPassive:checked:hover
+{
+	border-image: url(./Resources/active_a.png);
+}
+
+#btnDecoder,
+#btnPassive
+{
+	border-image: url(./Resources/passive.png);
+}
+
+#btnDecoder:hover
+#btnPassive:hover
+{
+	border-image: url(./Resources/passive_a.png);
+}
+
+#btnChangeStream
+{
+	border-image: url(./Resources/m-normal.png);
+}
+
+#btnChangeStream:hover,
+#btnChangeStream:pressed
+{
+	border-image: url(./Resources/m-active.png);
+}
+
+#btnChangeStream:checked
+{
+	border-image: url(./Resources/s-normal.png);
+}
+
+#btnChangeStream:checked:hover,
+#btnChangeStream:checked:pressed
+{
+	border-image: url(./Resources/s-active.png);
+}
+
+#btnMFullScreen
+{
+	border-image: url(./Resources/m-fullscreen-normal.png);
+}
+
+#btnMFullScreen:hover
+{
+	border-image: url(./Resources/m-fullscreen-active.png);
+}
+
+#btnMFullScreen:checked
+{
+	border-image: url(./Resources/m-fullscreen-a-normal.png);
+}
+
+#btnMFullScreen:checked:hover
+{
+	border-image: url(./Resources/m-fullscreen-a-active.png);
+}
+
+/************************å‘Šè?¦ç?¡ç†**********************/
+#btnSelAlarmSource
+{
+	min-width: 23px;
+	max-width: 23px;
+	width: 23px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+#btnSelAlarmSource:hover,
+#btnSelAlarmSource:pressed
+{
+	min-width: 23px;
+	max-width: 23px;
+	width: 23px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+/************************æ—¥å¿—ç®¡ç†**********************/
+
+/************************ç”¨æˆ·ç®¡ç†**********************/
+
+/************************è®¾å?‡ç?¡ç†**********************/
+#DeviceManage #btnLocalCms,
+#DeviceManage #btnRemoteCms,
+#DeviceManage #btnDec,
+#DeviceManage #btnGroup,
+#DeviceManage #btnLayout,
+#DeviceManage #btnDistributor,
+#DeviceManage #btnStorage,
+#DeviceManage #btnAccessCtrl,
+#DeviceManage #btnDecGroup,
+#AlarmInfo #btn_alarmlog,
+#AlarmInfo #btn_accesslog,
+#ModiryParam #btnDisplay,
+#ModiryParam #btnEncoder,
+#ModiryParam #btnVideo,
+#ModiryParam #btnNtp
+{
+	border-image: url(./Resources/tab_btn_normal.png);
+	color: rgb(180, 180, 180);
+}
+
+#DeviceManage #btnLocalCms:checked,
+#DeviceManage #btnRemoteCms:checked,
+#DeviceManage #btnDec:checked,
+#DeviceManage #btnGroup:checked,
+#DeviceManage #btnLayout:checked,
+#DeviceManage #btnDistributor:checked,
+#DeviceManage #btnStorage:checked,
+#DeviceManage #btnDecGroup:checked,
+#DeviceManage #btnAccessCtrl:checked,
+#AlarmInfo #btn_alarmlog:checked,
+#AlarmInfo #btn_accesslog:checked,
+#ModiryParam #btnDisplay:checked,
+#ModiryParam #btnEncoder:checked,
+#ModiryParam #btnVideo:checked,
+#ModiryParam #btnNtp:checked
+{
+	border-image: url(./Resources/tab_btn_sel.png);
+	color: rgb(240, 240, 240);
+}
+
+#DeviceManage #widgetLine,
+#StorageMng #widgetLine
+{
+	background-color: rgb(89, 89, 94);
+}
+
+#StorageWidget QProgressBar
+{
+	border: 1px solid gray;
+	border-radius: 5px;
+	text-align: center;
+	color: rgb(180, 180, 180);
+}
+
+#StorageWidget QProgressBar::chunk
+{
+	background-color: rgb(0, 169, 179);
+	width: 20px;
+}
+
+#m_pDeleteButtom
+{
+	border-image: url(./Resources/close_small_a.png);
+}
+
+#EditUnit #lineEdit
+{
+	background-color: transparent;
+	border: 0;
+}
+
+#btnAddChan
+{
+	border-image: url(./Resources/right.png);
+}
+
+#btnAddChan:hover,
+#btnAddChan:pressed
+{
+	border-image: url(./Resources/right_a.png);
+}
+
+#btnDelChan
+{
+	border-image: url(./Resources/left.png);
+}
+
+#btnDelChan:hover,
+#btnDelChan:pressed
+{
+	border-image: url(./Resources/left_a.png);
+}
+
+#GroupWidget #btnUp
+{
+	border-image: url(./Resources/up.png);
+}
+
+#GroupWidget #btnUp:hover,
+#GroupWidget #btnUp:pressed
+{
+	border-image: url(./Resources/up_a.png);
+}
+
+#GroupWidget #btnDown
+{
+	border-image: url(./Resources/down.png);
+}
+
+#GroupWidget #btnDown:hover,
+#GroupWidget #btnDown:pressed
+{
+	border-image: url(./Resources/down_a.png);
+}
+
+#GroupWidget #btnAddGroup,
+#DecodeGroupManage #btnAddGroup
+{
+	border-image: url(./Resources/add.png);
+}
+
+#GroupWidget #btnAddGroup:hover,
+#GroupWidget #btnAddGroup:pressed,
+#DecodeGroupManage #btnAddGroup:hover,
+#DecodeGroupManage #btnAddGroup:pressed
+{
+	border-image: url(./Resources/add_a.png);
+}
+
+#GroupWidget #btnDeleteGroup,
+#DecodeGroupManage #btnDeleteGroup
+{
+	border-image: url(./Resources/del.png);
+}
+
+#GroupWidget #btnDeleteGroup:hover,
+#GroupWidget #btnDeleteGroup:pressed,
+#DecodeGroupManage #btnDeleteGroup:hover,
+#DecodeGroupManage #btnDeleteGroup:pressed
+{
+	border-image: url(./Resources/del_a.png);
+}
+
+#AddTemplate #btn_edit
+{
+	border-image: url(./Resources/edit.png);
+}
+
+#AddTemplate #btn_edit:hover,
+#AddTemplate #btn_edit:pressed
+{
+	border-image: url(./Resources/edit_a.png);
+}
+/************************åœ°å›¾è®¾ç½®**********************/
+
+/************************è§£ç è®¾ç½®**********************/
+#btnStep1,
+#btnStep2,
+#btnStep3,
+#btnStep4
+{
+	width: 24px;
+	min-width: 24px;
+	max-width: 24px;
+	height: 24px;
+	min-height: 24px;
+	max-height: 24px;
+	background-color: rgb(197, 197, 197);
+	border-radius: 12px;
+	color: rgb(180, 180, 180);
+}
+
+#btnStep1:checked,
+#btnStep2:checked,
+#btnStep3:checked,
+#btnStep4:checked
+{
+	width: 24px;
+	min-width: 24px;
+	max-width: 24px;
+	height: 24px;
+	min-height: 24px;
+	max-height: 24px;
+	background-color: rgb(255, 250, 255);
+	border-radius: 12px;
+	color: rgb(01, 01, 01);
+}
+
+#labelStep1:!disabled,
+#labelStep2:!disabled,
+#labelStep3:!disabled,
+#labelStep4:!disabled
+{
+	color: rgb(180, 180, 180);
+}
+
+#labelStep1:disabled,
+#labelStep2:disabled,
+#labelStep3:disabled,
+#labelStep4:disabled
+{
+	color: rgb(255, 250, 255);
+}
+
+#widgetStep1:!disabled,
+#widgetStep2:!disabled,
+#widgetStep3:!disabled,
+#widgetStep4:!disabled
+{
+	background-color: rgb(40, 41, 45);
+}
+
+#widgetStep1:disabled,
+#widgetStep2:disabled,
+#widgetStep3:disabled,
+#widgetStep4:disabled
+{
+	background-color: rgb(0, 169, 179);
+}
+/************************å‘Šè?¦è?¾ç½®**********************/
+
+/************************æœ?åœ°è?¾ç½®**********************/
+#btnSelFileAlarmIn,
+#btnSelFileMotionDetect,
+#btnSelFileHideAlarm,
+#btnSelFileVideoLost,
+#btnSelFileCountAlarm,
+#btnSelFileAreaAlarm,
+#btnSelFileObjectAlarm,
+#btnSelFileCrossAlarm
+{
+	border-image: url(./Resources/Group.png);
+}
+
+#btnPlayAlarmIn,
+#btnPlayMotionDetect,
+#btnPlayHideAlarm,
+#btnPlayVideoLost,
+#btnPlayCountAlarm,
+#btnPlayAreaAlarm,
+#btnPlayObjectAlarm,
+#btnPlayCrossAlarm
+{
+	border-image: url(./Resources/play_a.png);
+}
+
+#labelSchedule
+{
+	color: rgb(98, 198, 89);
+}
+
+#labelMotion
+{
+	color: rgb(200, 200, 0);
+}
+
+#labelAlarm
+{
+	color: rgb(200, 0, 0);
+}
+
+#labelSmart
+{
+	color: rgb(131, 87, 197);
+}
+
+#labelPBNormal
+{
+	background-color: rgb(98, 198, 89);
+}
+
+#labelPBMotion
+{
+	background-color: rgb(236, 234, 64);
+}
+
+#labelPBAlarm
+{
+	background-color: rgb(238, 53, 48);
+}
+
+#labelPBSmart
+{
+	background-color: rgb(131, 87, 197);
+}
+#ModifyChannel #widgetMid
+{
+	background-image: url(./Resources/sub_xl_middle.png);
+	background-repeat:repeat-xy;
+}
+
+#ModifyChannel #widget
+{
+	background-image: url(./Resources/sub_xl_middle.png);
+	background-repeat:repeat-xy;
+	border-bottom-width:1px solid rgb(180,180,180);
+}
+
+#ModifyChannel #widgetTitle
+{
+	background-image: url(./Resources/sub_xl_title.png);
+	border-bottom-width:1px solid rgb(180,180,180);
+}
+
+#ModifyChannel #widgetBottom
+{
+	background-image: url(./Resources/sub_xl_bottom.png);
+	border-top-width:1px solid rgb(180,180,180);
+}
+
+#PreMutilMap #BtnLeft_a
+{
+	background:rgb(40,41,43);
+	background-image: url(./Resources/map_left.png);
+	border-radius:5px;
+}
+
+#PreMutilMap #BtnLeft_a:hover,
+#PreMutilMap #BtnLeft_a:checked
+{
+	background-image: url(./Resources/map_left_a.png);
+}
+
+#PreMutilMap #BtnRight_a
+{
+	background:rgb(40,41,43);
+	background-image: url(./Resources/map_right.png);
+	border-radius:5px;
+}
+
+#PreMutilMap #BtnRight_a:hover,
+#PreMutilMap #BtnRight_a:checked
+{
+	background-image: url(./Resources/map_right_a.png);
+}
+
+#HoverWidget #widgetMain
+{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(20,21,23),stop: 1 rgb(60,61,63));
+}
+
+ #widgetIn1,
+ #widgetIn3,
+ #widgetIn4,
+ #widgetOut1,
+ #widgetOut2,
+ #widgetOut3,
+ #widgetOut4
+{
+	background-color:rgb(40,42,46);
+}
+/********Dialog å¯¹æ‰€æœ‰æ ‡é¢?*********/
+#StorageMng #widget_2,
+#SiteManage #widgetTitle,
+#MsgBox #widget_2,
+#RecDownLoad #widget_2,
+#AddArea #widgetTitle,
+#AddDev #widgetTitle,
+#AddGroup #widgetTitle,
+#LayoutDialog #widgetTitle,
+#AddLayout #widgetTitle,
+#CopyCHConfig #widget_2,
+#AddTemplate #WidgetTitle,
+#UserPage #widget_2,
+#AddMap #widget_2,
+#AddLinkageRule #widget_2,
+#AlarmSoundCfg #widgetTitle,
+#RecPathConfig #widget_2,
+#DeviceList #widget,
+#Devices #widget
+{
+	background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(61,63,66),stop:1 rgb(22,22,24));
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-top:1px solid rgb(89,89,94);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/********Dialog å¯¹æ‰€æœ‰ä¸­é—´éƒ¨*********/
+#StorageMng #widget,
+#SiteManage #widgetMid,
+#MsgBox #widget,
+#RecDownLoad #widget,
+#AddArea #widgetMid,
+#AddDev #widgetMid,
+#AddGroup #widgetMid,
+#LayoutDialog #widgetMid,
+#AddLayout #widgetMid,
+#CopyCHConfig #widget,
+#AddTemplate #WidgetMid,
+#UserPage #widget,
+#AddMap #widget,
+#AddLinkageRule #widget,
+#AlarmSoundCfg #widgetMid,
+#RecPathConfig #widget
+{
+	background-color: rgb(20,21,23);
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-top:1px solid rgb(89,89,94);
+}
+
+/********Dialog å¯¹æ‰€æœ‰åº•éƒ?*********/
+#StorageMng #widget_3,
+#SiteManage #widgetBottom,
+#MsgBox #widget_3,
+#RecDownLoad #widget_3,
+#AddArea #widgetBottom,
+#AddDev #widgetBottom,
+#AddGroup #widgetBottom,
+#LayoutDialog #widgetBottom,
+#AddLayout #widgetBottom,
+#CopyCHConfig #widget_3,
+#AddTemplate #WidgetBottom,
+#UserPage #widget_3,
+#AddMap #widget_3,
+#AddLinkageRule #widget_3,
+#AlarmSoundCfg #widgetBottom,
+#RecPathConfig #widget_3
+
+{
+	background-color: rgb(20,21,23);
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-bottom:1px solid rgb(89,89,94);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#CalenderSearch #widget_2
+{
+	background-color:rgb(20,21,26);
+}
+
+#AlarmInfo #widget_log
+{
+	border-bottom:1px solid rgb(89,89,94);
+}
+
+/******************智能管理******************/
+#IntelligentManage #label_devicelist
+{
+	border-image:url(./Resources/device_bg.png);
+}
+
+#IntelligentManage #btnAlarmRecord,
+#IntelligentManage #btnAttendance,
+#IntelligentManage #btncapRecord,
+#IntelligentManage #btnpreview,
+#IntelligentManage #btnsamplelibrary
+{
+	border-image: url(./Resources/tab_btn_normal.png);
+	color: rgb(180, 180, 180);
+}
+
+#IntelligentManage #btnAlarmRecord:checked,
+#IntelligentManage #btnAttendance:checked,
+#IntelligentManage #btncapRecord:checked,
+#IntelligentManage #btnpreview:checked,
+#IntelligentManage #btnsamplelibrary:checked
+{
+	border-image: url(./Resources/tab_btn_sel.png);
+	color: rgb(240, 240, 240);
+}
+
+#IntelligentManage #widgetLine
+{
+	background-color: rgb(89, 89, 94);
+}
+
+#IntelligentFaceViewer #widget
+{
+	background-color:rgb(20,21,26);
+}
+
+#IntelligentFaceViewer #widget_top
+{
+	background-color:rgb(50,51,54);
+}
+
+#IntelligentFaceViewer #line
+{
+	background-color:rgb(180,180,180);
+}
+
+/***************人脸预览界面***************/
+#Intelligent #scrollAreaWidgetContents,
+#Intelligent #scrollAreaWidgetContents_2
+{
+	background-color:rgb(42,44,48);
+}
+
+#IntelligentCapture
+{
+	/*border-image:url(./Resources/tb_active.png);*/
+	background-color:rgb(51,51,55);
+}
+
+#intelligentAlarm
+{
+	background-color:rgb(51,51,55);
+	/*border-image:url(./Resources/tb_active.png);*/
+}
+
+/***************人脸抓拍记录界面***************/
+#IntelligentCaptureRecord #title_iconcondition,
+#IntelligentCaptureRecord #title_iconrecord,
+#IntelligentCaptureRecord #title_iconsearch
+{
+	border-image:url(./Resources/title_icon.png);
+}
+
+#IntelligentCaptureRecord #lineEdit_page,
+#IntelligentCaptureRecord #edit_similarity,
+#IntelligentCaptureRecord #edit_score
+{
+	border:0px;
+}
+
+#IntelligentCaptureRecord #widget_2,
+#IntelligentCaptureRecord #RightWidget
+{
+	border:1px solid rgb(130,135,144);
+}
+
+#IntelligentCaptureRecord #label_picture
+{
+	border-image:url(./Resources/picture_bg.png);
+}
+#IntelligentCaptureRecord #label_message
+{
+	color:rgb(255,0,0);
+}
+
+#FaceRecordInfoWidget #toolButto_detail
+{
+	border-image:url(./Resources/enlargement.png);
+}
+
+#FaceRecordInfoWidget #label_similarity
+{
+	font-size:12pt;
+	color:rgb(255,0,0);
+}
+
+#IntelligentAddFace
+{
+	background-color:rgb(42,44,48);
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-bottom:1px solid rgb(89,89,94);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#IntelligentAddFace #lineEdit_Name,
+#IntelligentAddFace #lineEdit_FaceId,
+#IntelligentAddFace #textEdit_Describe
+{
+	border:0px;
+}
+
+#IntelligentAddFace #toolButton_close,#IntelligentFaceViewer #toolButton_close
+{
+	border-image:url(./Resources/exit_nomal.png);
+}
+
+#IntelligentAddFace #toolButton_close:hover,#IntelligentFaceViewer #toolButton_close:hover
+{
+	border-image:url(./Resources/exit_active.png);
+}
+
+#IntelligentAddFace #widget_top
+{
+	border-image:url(./Resources/top.png);
+}
+
+#IntelligentAddFace #groupBox_addface,
+#IntelligentAddFace #groupBox_faceinfo
+{
+	border-color:rgb(120,120,120);
+}
+
+/***************人脸报警记录界面***************/
+#IntelligentAlarmRecord #title_iconrecord,#IntelligentAlarmRecord #title_iconsearch
+{
+	border-image:url(./Resources/title_icon.png);
+}
+
+#IntelligentAlarmRecord #lineEdit_facename,#IntelligentAlarmRecord #lineEdit_pagenum
+{
+	border:0px;
+}
+
+#IntelligentAlarmRecord #RightWidget,
+#IntelligentAlarmRecord #widget
+{
+	border:1px solid rgb(130,135,144);
+}
+
+#FaceAlarmInfoWidget #pbtn_capture,#FaceAlarmInfoWidget #pbtn_target
+{
+	border-image:url(./Resources/enlargement.png);
+}
+
+#FaceAlarmInfoWidget
+{
+	background-color:rgb(57,59,51);
+}
+
+#IntelligentAlarmRecord #label_message
+{
+	color:rgb(255,0,0);
+}
+
+#FaceAlarmInfoWidget #label_pic,
+#FaceAlarmInfoWidget #label_pic_target
+{
+	background-color:rgb(51,54,59);
+}
+
+/***************人脸样本库查询界面***************/
+#IntelligentSampleLibrary #label_picture
+{
+	border-image:url(./Resources/picture_bg.png);
+}
+
+#IntelligentSampleLibrary #title_iconpic,#IntelligentSampleLibrary #title_iconsearch
+{
+	border-image:url(./Resources/title_icon.png);
+}
+
+#IntelligentSampleLibrary #lineEdit_similarity,
+#IntelligentSampleLibrary #lineEdit_name,
+#IntelligentSampleLibrary #lineEdit_pagenum,
+#IntelligentSampleLibrary #lineEdit_describe
+{
+	border:0px;
+}
+
+#IntelligentSampleLibrary #widget_right
+{
+	border:1px solid rgb(130,135,144);
+}
+
+#IntelligentSampleLibrary #label_picsearch,
+#IntelligentSampleLibrary #label_search
+{
+	font-size:11pt;
+}
+
+#IntelligentSampleLibrary QToolButton
+{
+	border:0px;
+	background-color:rgb(54, 56, 62);
+}
+
+#IntelligentSampleLibrary #label_message
+{
+	color:rgb(255,0,0);
+}
+
+#IntelligentSampleLibrary QRadioButton
+{
+	color:rgb(180,180,180);
+}
+
+/**************智能配置***************/
+#IntelligentConfig #RightWidget
+{
+   border-width: 0.5px;
+   border-style: outset;
+   border-color: rgb(100,100,100);
+}
+
+#btnsave,#btndelete,#btnchoosepic,#btnPortRelevance
+{
+   background-color:rgb(0,169,179);
+   color:rgb(255,255,255);
+   border-radius:5px;
+}
+
+#btnsave:hover,#btndelete:hover,#btnchoosepic:hover,#btnPortRelevance:hover
+{
+	background-color:rgb(0,125,125);
+	color:rgb(255,255,255);
+	border-radius:5px;
+}
+#labeldevicelist
+{
+    background-image:url(./Resources/device_bg.png);
+	font:bold;
+}
+#title_iconlabel,#title_iconlabel3,#labeltitlepic
+{
+    border-image:url(./Resources/title_icon.png);
+}
+#btnclose
+{
+    border-image:url(./Resources/exit_nomal.png);
+}
+#btnclose:hover
+{
+    border-image:url(./Resources/exit_active.png);
+}
+#btnmin
+{
+    border-image:url(./Resources/minimum_nomal.png)
+}
+#btnmin:hover
+{
+    border-image:url(./Resources/minimum_active.png);
+}
+#editremark
+{
+    border:0;
+}
+#objectlibraryadd #topwidget,#addfacelibrary #topwidget
+{
+	background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 rgb(61,63,66),stop:1 rgb(22,22,24));
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-top:1px solid rgb(89,89,94);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom:1px solid rgb(89,89,94);
+}
+#objectlibraryadd,#addfacelibrary
+{
+
+	background-color: rgb(20,21,23);
+	border-left:1px solid rgb(89,89,94);
+	border-right:1px solid rgb(89,89,94);
+	border-top:1px solid rgb(89,89,94);
+	border-bottom:1px solid rgb(89,89,94);
+	
+}
+#lineEdit_path,#lineEdit_dbName
+{
+	height:40;
+}
+#progressBar
+{
+	color:rgb(255,255,255);
+}
+#onepicwidget
+{
+	border:1px;
+	border-color:rgb(255,255,255);
+	border-style:outset;
+}
+
+#comboxFaceLib
+{
+	height:40;
+	border:0;
+}
+#btnonepicadd,#btnmorepicadd
+{
+	min-width:98;
+}
+#scrollAreaFace
+{
+	border:0;
+}
+#edit_name,#lineEdit_path,#comBxfacelib,#editname,#editFaceId
+{
+	border:0;
+}
