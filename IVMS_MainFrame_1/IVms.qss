@@ -1,0 +1,280 @@
+/*公共样式*/
+QPushButton[flat="true"]
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+QPushButton[flat="true"]:hover,
+QPushButton[flat="true"]:pressed
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+/*登录界面样式*/
+#IVmsLoginDlg #lineEdit_user,
+#IVmsLoginDlg #lineEdit_password,
+#IVmsLoginDlg #lineEdit_language
+{
+    font-size:22px;
+}
+
+#IVmsLoginDlg #toolButton_close
+{
+    border-image:url(./Resources/close_active.png);
+}
+
+#IVmsLoginDlg #toolButton_close:hover
+{
+    border-image:url(./Resources/close_nomal.png);
+}
+
+#IVmsLoginDlg #label_user
+{
+    border-image:url(./Resources/user.png);
+}
+
+#IVmsLoginDlg #label_password
+{
+    border-image:url(./Resources/password.png);
+}
+
+#IVmsLoginDlg #label_language
+{
+    border-image:url(./Resources/language.png);
+}
+
+
+/*主框架界面样式*/
+#MainDialog #btn_close
+{
+	border-image:url(./Resources/exit_nomal.png);
+}
+#MainDialog #btn_close:hover
+{
+	border-image:url(./Resources/exit_active.png);
+}
+
+#MainDialog #btn_minimum
+{
+	border-image:url(./Resources/minimum_nomal.png);
+}
+#MainDialog #btn_minimum:hover
+{
+	border-image:url(./Resources/minimum_active.png);
+}
+
+#MainDialog #btn_maximum
+{
+	border-image:url(./Resources/maximum_nomal.png);
+}
+#MainDialog #btn_maximum:hover
+{
+	border-image:url(./Resources/maximum_active.png);
+}
+
+#MainDialog #maindlg_widget_title
+{
+	background-color: rgb(20,21,26);
+}
+
+#MainDialog #label_logo
+{
+	min-width: 179px;
+	min-height: 47px;
+	max-width: 179px;
+	max-height: 47px;
+	width: 179px;
+	height: 47px;
+	margin-left:20px;
+	background-image: url(./Resources/logo.png);
+}
+
+#MainDialog #widget,
+#MainDialog #scrollAreaWidgetContents,
+#MainDialog QScrollArea
+{
+	background-color: transparent;
+}
+
+#MainDialog QScrollArea
+{
+	border:0px;
+}
+
+#tbpreview
+{
+	background-color: rgb(0, 169, 179);
+}
+
+#tbpreview:hover
+{
+	background-color: rgba(0, 169, 179, 180);
+}
+#tbplayback
+{
+	background-color: rgb(155, 193, 66);
+}
+
+#tbplayback:hover
+{
+	background-color: rgba(155, 193, 66, 180);
+}
+
+#tbdevicemng
+{
+	background-color: rgb(155, 193, 66);
+}
+
+#tbdevicemng:hover
+{
+	background-color: rgba(155, 193, 66, 180);
+}
+
+#tbalarm
+{
+	background-color: rgb(211, 72, 39);
+}
+
+#tbalarm:hover
+{
+	background-color: rgba(211, 72, 39, 180);
+}
+
+#tblog
+{
+	background-color: rgb(88, 56, 179);
+}
+
+#tblog:hover
+{
+	background-color: rgba(88, 56, 179, 180);
+}
+
+#btn_left
+{
+	border-image: url(./Resources/left_nomal.png);
+}
+
+#btn_left:hover,
+#btn_left:pressed
+{
+	border-image: url(./Resources/left_active.png);
+}
+
+#btn_right
+{
+	border-image: url(./Resources/right_nomal.png);
+}
+
+#btn_right:hover,
+#btn_right:pressed
+{
+	border-image: url(./Resources/right_active.png);
+}
+
+#toolbarItem QLabel
+{
+	background-color: transparent;
+	color: rgb(240, 240, 240);
+	font-size: 16px;
+}
+
+#toolbarItem #btn_close
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_nomal.png);
+}
+
+#toolbarItem #btn_close:hover,#toolbarItem #btn_close:pressed
+{
+    background-color: transparent;
+    border-radius:0px;
+    border-image:url(./Resources/close_active.png);
+}
+
+toolbarItem[toolbarItemActive="true"]
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(0, 169, 179);
+}
+
+toolbarItem[toolbarItemActive="false"]
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 2px;
+	background-color: rgb(49, 51, 55);
+}
+
+#ivms_devicemanage_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_device_manage_active.png);
+}
+#ivms_devicemanage_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_device_manage_nomal.png);
+}
+
+#ivms_ctrlPanel_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_ctrl_panel_active.png);
+}
+#ivms_ctrlPanel_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_ctrl_panel_nomal.png);
+}
+
+#ivms_alarm_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_alarm_active.png);
+}
+#ivms_alarm_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_alarm_nomal.png);
+}
+
+#ivms_preview_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_preview_active.png);
+}
+#ivms_preview_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_preview_nomal.png);
+}
+
+#ivms_log_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_log_active.png);
+}
+#ivms_log_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_log_nomal.png);
+}
+
+#ivms_playback_bar #label_icon[toolbarItemActive="true"]
+{
+	background-image:url(./Resources/tab_playback_active.png);
+}
+#ivms_playback_bar #label_icon[toolbarItemActive="false"]
+{
+	background-image:url(./Resources/tab_playback_nomal.png);
+}

@@ -1,0 +1,210 @@
+/*公共样式*/
+QPushButton[flat="true"]:disabled
+{
+	background-color: rgb(120, 120, 120);
+}
+
+QPushButton[flat="true"]
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgb(0, 169, 179);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+QPushButton[flat="true"]:hover,
+QPushButton[flat="true"]:pressed
+{
+	min-width: 79px;
+	max-width: 79px;
+	width: 79px;
+	height: 23px;
+	border-radius: 3px;
+	border: 0;
+	background-color: rgba(0, 169, 179, 120);
+	font-size: 12px;
+	color: rgb(240, 240, 240);
+}
+
+
+QGroupBox
+{
+	border:1px solid rgb(45, 47, 51);
+	color: rgb(180, 180, 180);
+	font-size: 14px;
+}
+
+QCheckBox
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+	font-size: 12px;
+}
+
+QLabel
+{
+	background-color: transparent;
+	color: rgb(180, 180, 180);
+/*	font-size: 12px;*/
+}
+
+QHeaderView::section
+{
+	background-color: qlineargradient(x1:0,y2:1,stop:0 #232428, stop:1 #0E0F13);
+	color: rgb(180, 180, 180);
+	border: 0;
+	border-left: 1px solid #0A0B10;
+	border-right: 1px solid #0A0B10;
+	font-weight: bold;
+	height: 38px;
+}
+
+QTreeView, QTreeWidget, QListWidget
+{
+	background-color: rgb(42, 43, 48);
+	color: rgb(180, 180, 180);
+	padding-top: 10px;
+}
+
+QTableWidget,
+QTableView
+{
+	background-color: rgb(54, 56, 62);
+	alternate-background-color: rgb(72, 75, 82);
+	color: rgb(180, 180, 180);
+}
+
+QTreeView::item:hover,
+QTreeWidget::item:hover,
+QListWidget::item:hover
+{
+	background-color: rgba(0, 169, 179, 40);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::item:selected,
+QTreeWidget::item:selected,
+QListWidget::item:selected,
+QTableWidget::item:selected,
+QTableView::item:selected
+{
+	background-color: rgba(0, 169, 179, 120);
+	color: rgb(240, 240, 240);
+}
+
+QTreeView::branch:closed:has-children:!has-siblings,
+QTreeView::branch:closed:has-children:has-siblings,
+QTreeWidget::branch:closed:has-children:!has-siblings,
+QTreeWidget::branch:closed:has-children:has-siblings,
+QListWidget::branch:closed:has-children:!has-siblings,
+QListWidget::branch:closed:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings,
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings,
+QListWidget::branch:open:has-children:!has-siblings,
+QListWidget::branch:open:has-children:has-siblings
+{
+	border-image:none;
+	image: url(./Resources/branch-open.png);
+}
+
+ #widgetIn1,
+ #widgetIn3,
+ #widgetIn4,
+ #widgetOut1,
+ #widgetOut2,
+ #widgetOut3,
+ #widgetOut4
+{
+	background-color:rgb(40,42,46);
+}
+
+#btnClose, 
+#btn_close,
+#btn_close1
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_nomal.png);
+}
+
+#btnClose:hover, 
+#btnClose:pressed,
+#btn_close:hover, 
+#btn_close:pressed,
+#btn_close1:hover, 
+#btn_close1:pressed
+{
+	width: 28px;
+	height: 21px;
+	border-image: url(./Resources/exit_active.png);
+}
+
+#btnMin,
+#btn_minimum,
+#btn_minimum1
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_nomal.png);
+}
+
+#btnMin:hover, 
+#btnMin:pressed,
+#btn_minimum:hover, 
+#btn_minimum:pressed,
+#btn_minimum1:hover, 
+#btn_minimum1:pressed
+{
+	width: 29px;
+	height: 21px;
+	border-image: url(./Resources/minimum_active.png);
+}
+
+/*主界面样式*/
+#ivms_devicemanage #btnLocalCms,
+#ivms_devicemanage #btnRemoteCms,
+#ivms_devicemanage #btnDec,
+#ivms_devicemanage #btnGroup,
+#ivms_devicemanage #btnLayout,
+#ivms_devicemanage #btnDistributor,
+#ivms_devicemanage #btnStorage,
+#ivms_devicemanage #btnAccessCtrl,
+#ivms_devicemanage #btnDecGroup
+{
+	border-image: url(./Resources/tab_btn_normal.png);
+	color: rgb(180, 180, 180);
+}
+
+#ivms_devicemanage #btnLocalCms:checked,
+#ivms_devicemanage #btnRemoteCms:checked,
+#ivms_devicemanage #btnDec:checked,
+#ivms_devicemanage #btnGroup:checked,
+#ivms_devicemanage #btnLayout:checked,
+#ivms_devicemanage #btnDistributor:checked,
+#ivms_devicemanage #btnStorage:checked,
+#ivms_devicemanage #btnDecGroup:checked,
+#ivms_devicemanage #btnAccessCtrl:checked
+{
+	border-image: url(./Resources/tab_btn_sel.png);
+	color: rgb(240, 240, 240);
+}
+
+#ivms_devicemanage #widgetLine
+{
+	background-color: rgb(89, 89, 94);
+}
+
+/* 设置中心样式 */
+
